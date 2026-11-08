@@ -122,7 +122,7 @@ fn parse_music_status(text: &str) -> MusicStatus {
 async fn music_status(window: tauri::WebviewWindow) -> Result<MusicStatus> {
     shell(&window)?;
     let binary = music_binary(window.app_handle());
-    if !binary.is_file() && binary == std::path::PathBuf::from("ytt.exe") {
+    if !binary.is_file() && binary == std::path::Path::new("ytt.exe") {
         return Ok(MusicStatus {
             available: false,
             running: false,
