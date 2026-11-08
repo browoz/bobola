@@ -1,0 +1,3089 @@
+[
+  {
+    "id": "1password",
+    "name": "1Password",
+    "url": "https://my.1password.com/signin/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "80lv",
+    "name": "80LV",
+    "url": "https://80.lv",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "anonaddy",
+    "name": "addy.io",
+    "url": "https://app.addy.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "affine",
+    "name": "Affine",
+    "url": "https://{affine}/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "air-droid",
+    "name": "AirDroid",
+    "url": "http://web.airdroid.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "airmessage",
+    "name": "AirMessage",
+    "url": "https://web.airmessage.org/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "url": "https://airtable.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "alibaba-chat",
+    "name": "Alibaba Chat",
+    "url": "https://message.alibaba.com/message/messenger.htm",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "amazon-web-services",
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "amazon-work-mail",
+    "name": "Amazon WorkMail",
+    "url": "https://{teamId}.awsapps.com/mail",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "android-messages",
+    "name": "Android Messages",
+    "url": "https://messages.google.com/web",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "anydo",
+    "name": "Any.do",
+    "url": "https://desktop.any.do/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "aparat",
+    "name": "Aparat",
+    "url": "https://www.aparat.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "url": "https://app.asana.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "awork",
+    "name": "Awork",
+    "url": "https://{teamId}.awork.io",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "azure-devops",
+    "name": "Azure DevOps",
+    "url": "https://dev.azure.com/{teamId}",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "azure-portal",
+    "name": "Azure Portal",
+    "url": "https://portal.azure.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "badoo",
+    "name": "Badoo",
+    "url": "https://badoo.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bale",
+    "name": "Bale",
+    "url": "https://web.bale.ai/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bard",
+    "name": "Bard",
+    "url": "https://bard.google.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "basecamp",
+    "name": "Basecamp",
+    "url": "https://launchpad.37signals.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bigbluebutton",
+    "name": "BigBlueButton",
+    "url": "https://bigbluebutton.mycompany.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "binance",
+    "name": "Binance",
+    "url": "https://accounts.binance.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bip",
+    "name": "BiP",
+    "url": "https://web.bip.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bitbucket",
+    "name": "BitBucket",
+    "url": "https://bitbucket.org/dashboard/overview",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "url": "https://vault.bitwarden.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "blinkist",
+    "name": "Blinkist",
+    "url": "https://www.blinkist.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "BlueBubbles",
+    "name": "BlueBubbles",
+    "url": "https://bluebubbles.app/web/#/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bluesky",
+    "name": "Bluesky",
+    "url": "https://bsky.app/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "url": "https://account.box.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "brax.me",
+    "name": "Brax.Me",
+    "url": "https://brax.me",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bring",
+    "name": "Bring!",
+    "url": "https://web.getbring.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "buffer",
+    "name": "Buffer",
+    "url": "https://buffer.com",
+    "needsCustomUrl": false,
+    "license": "GPL"
+  },
+  {
+    "id": "bugzilla",
+    "name": "Bugzilla",
+    "url": "https://bugzilla.mozilla.org/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "bycs-messenger",
+    "name": "Bycs-Messenger",
+    "url": "https://messenger.bycs.de/#/home",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "campuswire",
+    "name": "Campuswire",
+    "url": "https://campuswire.com/c",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "url": "https://canva.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "canvas",
+    "name": "Canvas",
+    "url": "https://{teamId}.instructure.com/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "cara",
+    "name": "Cara",
+    "url": "https://cara.app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud-carnet",
+    "name": "Carnet (Nextcloud)",
+    "url": "https://{teamId}/apps/carnet/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "chatwithgpt",
+    "name": "Chat with GPT",
+    "url": "https://www.chatwithgpt.ai/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com/chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "chatllm",
+    "name": "ChatLLM",
+    "url": "https://apps.abacus.ai/chatllm",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "chatra",
+    "name": "Chatra",
+    "url": "https://app.chatra.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "chatwoot",
+    "name": "Chatwoot",
+    "url": "https://app.chatwoot.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "chatwork",
+    "name": "Chatwork",
+    "url": "https://www.chatwork.com/login.php",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "cinny",
+    "name": "Cinny",
+    "url": "https://app.cinny.in",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "circuit",
+    "name": "Circuit",
+    "url": "https://eu.yourcircuit.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "ciscospark",
+    "name": "Cisco Spark",
+    "url": "https://web.ciscospark.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "citrix-workspace",
+    "name": "Citrix Workspace",
+    "url": "https://{teamId}.cloud.com",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "claude-ai",
+    "name": "claude.ai",
+    "url": "https://claude.ai",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "clickup",
+    "name": "ClickUp",
+    "url": "https://app.clickup.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "cliq",
+    "name": "Cliq",
+    "url": "https://www.zoho.com/cliq/login.html",
+    "needsCustomUrl": false,
+    "license": "UNSPECIFIED"
+  },
+  {
+    "id": "clockify",
+    "name": "Clockify",
+    "url": "https://app.clockify.me/tracker",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "clockwise",
+    "name": "Clockwise",
+    "url": "https://www.getclockwise.com/app/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "clubhouse",
+    "name": "Clubhouse",
+    "url": "https://app.clubhouse.io/{teamId}/dashboard",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "url": "https://www.coinbase.com/dashboard",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "conceptboard",
+    "name": "Conceptboard",
+    "url": "https://app.conceptboard.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "confluence",
+    "name": "Confluence",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "crowdin",
+    "name": "Crowdin",
+    "url": "https://crowdin.com/profile",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "franz-custom-website",
+    "name": "Custom Website",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "daily-dev",
+    "name": "Daily.dev",
+    "url": "https://app.daily.dev",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "daneshkar",
+    "name": "Daneshkar",
+    "url": "https://www.daneshkar.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "deckblue",
+    "name": "DeckBlue",
+    "url": "https://deck.blue/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "deepai",
+    "name": "DeepAI",
+    "url": "https://deepai.org/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL",
+    "url": "https://www.deepl.com/translator",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "dev-community",
+    "name": "Dev Community",
+    "url": "https://dev.to",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "devdocs",
+    "name": "DevDocs",
+    "url": "https://devdocs.io",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "devRant",
+    "name": "devRant",
+    "url": "https://devrant.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "diagrams",
+    "name": "Diagrams",
+    "url": "https://app.diagrams.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "dialpad",
+    "name": "Dialpad",
+    "url": "https://dialpad.com/app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "dict-cc",
+    "name": "Dict.cc",
+    "url": "https://www.dict.cc/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "dingtalk",
+    "name": "Dingtalk",
+    "url": "https://im.dingtalk.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "url": "https://discord.com/app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "discourse",
+    "name": "Discourse",
+    "url": "https://meta.discourse.org/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "disqus",
+    "name": "Disqus",
+    "url": "https://disqus.com/home/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "divar",
+    "name": "Divar",
+    "url": "https://www.divar.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "dockerhub",
+    "name": "Docker Hub",
+    "url": "https://hub.docker.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "drawio",
+    "name": "Draw.io",
+    "url": "https://app.diagrams.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com/home",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "duckduckgo-ai-chat",
+    "name": "DuckDuckGo AI Chat",
+    "url": "https://duckduckgo.com/aichat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "eestekhdam",
+    "name": "e-Estekhdam",
+    "url": "https://www.e-estekhdam.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "easy-redmine",
+    "name": "Easy Redmine",
+    "url": "https://{teamID}.easyredmine.com",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "eitaa",
+    "name": "Eitaa",
+    "url": "https://web.eitaa.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "element",
+    "name": "Element",
+    "url": "https://app.element.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "elevate",
+    "name": "Elevate",
+    "url": "https://elevate.serverdata.net",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "elk",
+    "name": "Elk",
+    "url": "https://elk.zone/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "epicgames",
+    "name": "Epic Games Store",
+    "url": "https://www.epicgames.com/id/login?lang=en_US&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fstore%2Fen-US%2F&noHostRedirect=true",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "epicmail",
+    "name": "EpicMail",
+    "url": "https://app.epicmail.org/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "erepublik",
+    "name": "eRepublik",
+    "url": "https://erepublik.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote",
+    "url": "https://www.evernote.com/Login.action",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "exploit-db",
+    "name": "Exploit DB",
+    "url": "https://www.exploit-db.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "facebook",
+    "name": "Facebook",
+    "url": "https://www.facebook.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "facebookpages",
+    "name": "Facebook Pages",
+    "url": "https://facebook.com/{teamId}/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "fandom",
+    "name": "Fandom",
+    "url": "https://www.fandom.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "farsnews",
+    "name": "FarsNews",
+    "url": "https://farsnews.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "fastmail",
+    "name": "FastMail",
+    "url": "https://www.fastmail.com/mail/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "feedbin",
+    "name": "Feedbin",
+    "url": "https://feedbin.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "feedly",
+    "name": "Feedly",
+    "url": "https://feedly.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "url": "https://figma.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly",
+    "url": "https://{firefly}/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "url": "https://www.fiverr.com/inbox/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "fleep",
+    "name": "Fleep",
+    "url": "https://fleep.io/chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "flipboard",
+    "name": "Flipboard",
+    "url": "https://flipboard.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "flock",
+    "name": "Flock",
+    "url": "https://web.flock.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "flowdock",
+    "name": "Flowdock",
+    "url": "https://www.flowdock.com/app/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "fluffychat",
+    "name": "FluffyChat",
+    "url": "https://fluffychat.im/web",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "fluxer-gg",
+    "name": "Fluxer",
+    "url": "https://web.fluxer.app/channels/@me",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "follow-is",
+    "name": "Follow",
+    "url": "https://app.follow.is/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "freshdesk",
+    "name": "Freshdesk",
+    "url": "https://{teamId}.freshdesk.com/a/tickets/filters/unresolved",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "freshrss",
+    "name": "FreshRSS",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "freshservice",
+    "name": "Freshservice",
+    "url": "https://freshservice.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "friendica",
+    "name": "Friendica",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "furaffinity",
+    "name": "Furaffinity",
+    "url": "https://www.furaffinity.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gadugadu",
+    "name": "Gadu-Gadu",
+    "url": "https://www.gg.pl",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gaming-on-linux",
+    "name": "GamingOnLinux",
+    "url": "https://www.gamingonlinux.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gap",
+    "name": "Gap",
+    "url": "https://web.gap.im/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gather",
+    "name": "Gather",
+    "url": "https://app.gather.town/app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gather-v2",
+    "name": "Gather 2.0",
+    "url": "https://app.v2.gather.town/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gettr",
+    "name": "Gettr",
+    "url": "https://gettr.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gitea",
+    "name": "Gitea",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "url": "https://github.com/notifications",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "url": "https://gitlab.com/users/sign_in",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gitter",
+    "name": "Gitter",
+    "url": "https://gitter.im",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "glowing-bear",
+    "name": "Glowing Bear",
+    "url": "https://www.glowing-bear.org",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gmail",
+    "name": "Gmail",
+    "url": "https://mail.google.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gotomeeting",
+    "name": "Go To Meeting",
+    "url": "https://app.gotomeeting.com/home.html",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "good-reads",
+    "name": "Good Reads",
+    "url": "https://www.goodreads.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-calendar",
+    "name": "Google Calendar",
+    "url": "https://calendar.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "hangouts",
+    "name": "Google Chat",
+    "url": "https://mail.google.com/chat/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-classroom",
+    "name": "Google Classroom",
+    "url": "https://classroom.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-contacts",
+    "name": "Google Contacts",
+    "url": "https://contacts.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-docs",
+    "name": "Google Docs",
+    "url": "https://docs.google.com/document/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-drive",
+    "name": "Google Drive",
+    "url": "https://drive.google.com/drive/my-drive",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-duo",
+    "name": "Google Duo",
+    "url": "https://duo.google.com/?web",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-gemini",
+    "name": "Google Gemini",
+    "url": "https://gemini.google.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-groups",
+    "name": "Google Groups",
+    "url": "https://groups.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-keep",
+    "name": "Google Keep",
+    "url": "https://keep.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-maps",
+    "name": "Google Maps",
+    "url": "https://www.google.com/maps",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-meet",
+    "name": "Google Meet",
+    "url": "https://meet.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-news",
+    "name": "Google News",
+    "url": "https://news.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-presentation",
+    "name": "Google Presentation",
+    "url": "https://docs.google.com/presentation/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-spreadsheets",
+    "name": "Google Spreadsheets",
+    "url": "https://docs.google.com/spreadsheets/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-translate",
+    "name": "Google Translate",
+    "url": "https://translate.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "google-voice",
+    "name": "Google Voice",
+    "url": "https://voice.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "gotify",
+    "name": "Gotify",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "goto",
+    "name": "GoTo",
+    "url": "https://app.goto.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "url": "https://app.grammarly.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "url": "https://grok.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "groupme",
+    "name": "GroupMe",
+    "url": "https://web.groupme.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "guilded",
+    "name": "Guilded",
+    "url": "https://www.guilded.gg/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "guru",
+    "name": "guru.com",
+    "url": "https://www.guru.com/pro/messages.aspx",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "habitica",
+    "name": "Habitica",
+    "url": "https://habitica.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "hacker-news",
+    "name": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "hackmd",
+    "name": "HackMd",
+    "url": "https://hackmd.io",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "hangoutschat",
+    "name": "Hangouts Chat",
+    "url": "https://chat.google.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "harvest",
+    "name": "Harvest",
+    "url": "https://{teamId}.harvestapp.com",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "hastebin",
+    "name": "Hastebin",
+    "url": "https://www.toptal.com/developers/hastebin",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "help-scout",
+    "name": "Help Scout",
+    "url": "https://www.helpscout.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "hey",
+    "name": "Hey",
+    "url": "https://app.hey.com",
+    "needsCustomUrl": false,
+    "license": "UNSPECIFIED"
+  },
+  {
+    "id": "home-assistant",
+    "name": "Home Assistant",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "hostnet",
+    "name": "Hostnet",
+    "url": "https://appsuite.hostnet.nl/appsuite/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "hubstaff",
+    "name": "HubStaff",
+    "url": "https://app.hubstaff.com/login_now",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "hugging-chat",
+    "name": "Hugging Chat",
+    "url": "https://huggingface.co/chat/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "iberbox",
+    "name": "IberBox",
+    "url": "https://iberbox.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "iCloud",
+    "name": "iCloud",
+    "url": "https://www.icloud.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "icloud-mail",
+    "name": "iCloud Mail",
+    "url": "https://www.icloud.com/mail/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "icloud-reminders",
+    "name": "iCloud Reminders",
+    "url": "https://www.icloud.com/reminders",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "icq",
+    "name": "ICQ",
+    "url": "https://web.icq.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "idobata",
+    "name": "Idobata",
+    "url": "https://idobata.io",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "igap",
+    "name": "iGap",
+    "url": "https://web.igap.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "infomaniak-calendar",
+    "name": "Infomaniak Calendar",
+    "url": "https://calendar.infomaniak.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "infomaniak-kdrive",
+    "name": "Infomaniak KDrive",
+    "url": "https://kdrive.infomaniak.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "infomaniak-mail",
+    "name": "Infomaniak Mail",
+    "url": "https://mail.infomaniak.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "inoreader",
+    "name": "Inoreader",
+    "url": "https://www.inoreader.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "url": "https://instagram.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "instagram-direct-messages",
+    "name": "Instagram Direct Messages",
+    "url": "https://www.instagram.com/direct/inbox/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "intercom",
+    "name": "Intercom",
+    "url": "https://app.intercom.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "invoice-ninja",
+    "name": "Invoice Ninja",
+    "url": "https://invoicing.co/#/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "iranestekhdam",
+    "name": "IranEstekhdam",
+    "url": "https://www.iranestekhdam.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "irantalent",
+    "name": "IranTalent",
+    "url": "https://www.irantalent.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "irccloud",
+    "name": "IRCCloud",
+    "url": "https://www.irccloud.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "iris-messenger",
+    "name": "Iris Messenger",
+    "url": "https://iris.to",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "it-tools",
+    "name": "IT-Tools",
+    "url": "https://it-tools.tech",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "url": "https://{teamId}.atlassian.net",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "jitsi",
+    "name": "Jitsi Meet",
+    "url": "https://meet.jit.si/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "jobinja",
+    "name": "Jobinja",
+    "url": "https://www.jobinja.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "jobvision",
+    "name": "JobVision",
+    "url": "https://www.jobvision.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "jollor",
+    "name": "jollor",
+    "url": "https://jollor.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "jsoncrack",
+    "name": "JSON Crack",
+    "url": "https://app.jsoncrack.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "karboom",
+    "name": "Karboom",
+    "url": "https://www.karboom.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "keepervault",
+    "name": "Keeper Vault",
+    "url": "https://keepersecurity.eu/vault/#",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "keybase.io",
+    "name": "Keybase",
+    "url": "https://keybase.io/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "kimaicloud",
+    "name": "Kimai Cloud",
+    "url": "https://{teamId}.kimai.cloud",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "kiwiirc",
+    "name": "KiwiIRC",
+    "url": "https://kiwiirc.com/nextclient/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "ko-fi",
+    "name": "Ko-fi",
+    "url": "https://ko-fi.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "lark",
+    "name": "Lark",
+    "url": "https://{teamId}.larksuite.com/messenger/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "lastpass",
+    "name": "LastPass",
+    "url": "https://lastpass.com/?ac=1&lpnorefresh=1",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mistral",
+    "name": "Le Chat by Mistral",
+    "url": "https://chat.mistral.ai/chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "lemmy",
+    "name": "Lemmy",
+    "url": "https://lemmy.ml/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "lineworks",
+    "name": "Line Works",
+    "url": "https://talk.worksmobile.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "url": "https://linear.app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/messaging",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "lobe-chat",
+    "name": "LobeChat",
+    "url": "https://lobechat.com/chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "localazy",
+    "name": "Localazy",
+    "url": "https://localazy.com/my/dashboard",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "loginformant",
+    "name": "LogInformant",
+    "url": "https://app.loginformant.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "magic-level",
+    "name": "Magic Level",
+    "url": "https://magiclevel.ml",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mailbox.org",
+    "name": "Mailbox.org",
+    "url": "https://office.mailbox.org/appsuite/#!!&app=io.ox/portal",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mailfence",
+    "name": "Mailfence",
+    "url": "https://mailfence.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mastodeck",
+    "name": "Mastodeck",
+    "url": "https://mastodeck.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mastodon",
+    "name": "Mastodon",
+    "url": "https://mastodon.social",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "max",
+    "name": "MaX",
+    "url": "https://web.max.ru/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mdaemon",
+    "name": "MDaemon Worldclient",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "url": "https://medium.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "meetup",
+    "name": "Meetup",
+    "url": "https://meetup.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "memos",
+    "name": "memos",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "url": "https://facebook.com/messages",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "meta-business-suite",
+    "name": "Meta Business Suite",
+    "url": "https://business.facebook.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mewe",
+    "name": "MeWe",
+    "url": "https://mewe.com/chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "kaizala",
+    "name": "Microsoft Kaizala",
+    "url": "https://webapp.kaiza.la",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "ms-planner",
+    "name": "Microsoft Planner",
+    "url": "https://tasks.office.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "msteams",
+    "name": "Microsoft Teams",
+    "url": "https://teams.cloud.microsoft",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mstodo",
+    "name": "Microsoft To Do",
+    "url": "https://to-do.office.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mightytext",
+    "name": "MightyText",
+    "url": "https://mightytext.net/web",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "miniflux",
+    "name": "Miniflux",
+    "url": "https://reader.miniflux.app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "url": "https://miro.com/app/dashboard/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mirotalk-c2c",
+    "name": "MiroTalk C2C",
+    "url": "https://c2c.mirotalk.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mirotalk-bro",
+    "name": "MiroTalk Live Broadcast",
+    "url": "https://bro.mirotalk.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mirotalk-p2p",
+    "name": "MiroTalk P2P",
+    "url": "https://p2p.mirotalk.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mirotalk-sfu",
+    "name": "MiroTalk SFU",
+    "url": "https://sfu.mirotalk.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "mirotalk-webrtc",
+    "name": "MiroTalk WebRTC",
+    "url": "https://webrtc.mirotalk.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "misskey",
+    "name": "Misskey",
+    "url": "https://{teamId}",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "monarch-money",
+    "name": "Monarch Money",
+    "url": "https://app.monarch.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "monday",
+    "name": "Monday",
+    "url": "https://{teamId}.monday.com",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "monicahq",
+    "name": "Monica HQ",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "moodle",
+    "name": "Moodle",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "mysms",
+    "name": "MySMS",
+    "url": "https://app.mysms.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "navidrome",
+    "name": "Navidrome",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nazdika",
+    "name": "Nazdika",
+    "url": "https://app.nazdika.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "netatmo-energy",
+    "name": "Netatmo Energy",
+    "url": "https://my.netatmo.com/app/energy",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "url": "https://app.netlify.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "NewsBlur",
+    "name": "NewsBlur",
+    "url": "https://newsblur.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud",
+    "name": "Nextcloud",
+    "url": "https://{nextcloud}/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud-calendar",
+    "name": "Nextcloud Calendar",
+    "url": "https://{teamId}/apps/calendar/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud-cospend",
+    "name": "Nextcloud Cospend",
+    "url": "https://{teamId}/apps/cospend/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud-deck",
+    "name": "Nextcloud Deck",
+    "url": "https://{teamId}/apps/deck/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud-news",
+    "name": "Nextcloud News",
+    "url": "https://{teamId}/apps/news/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud-talk",
+    "name": "Nextcloud Talk",
+    "url": "https://{teamId}/apps/spreed/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nextcloud-tasks",
+    "name": "Nextcloud Tasks",
+    "url": "https://{teamId}/apps/tasks/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "nextdoor",
+    "name": "Nextdoor",
+    "url": "https://nextdoor.co.uk/inbox/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "noisli",
+    "name": "Noisli",
+    "url": "https://www.noisli.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "nomadlist",
+    "name": "NomadList",
+    "url": "https://nomadlist.com/chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "nostr",
+    "name": "Nostr",
+    "url": "https://nostr.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "url": "https://www.notion.so/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "notion-calendar",
+    "name": "Notion Calendar",
+    "url": "https://calendar.notion.so/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "notion-mail",
+    "name": "Notion Mail",
+    "url": "https://mail.notion.so",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "ntfy",
+    "name": "ntfy",
+    "url": "https://ntfy.sh/app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "oreilly-learning",
+    "name": "O'Reilly Learning",
+    "url": "https://learning.oreilly.com/home-new/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "odoo",
+    "name": "Odoo",
+    "url": "https://www.odoo.com/web/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "odysee",
+    "name": "Odysee",
+    "url": "https://odysee.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "office365-owa",
+    "name": "Office 365 Outlook",
+    "url": "https://outlook.cloud.microsoft/mail/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "onedrive",
+    "name": "OneDrive",
+    "url": "https://onedrive.live.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "onenote",
+    "name": "OneNote",
+    "url": "https://onenote.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "online-go",
+    "name": "Online Go",
+    "url": "https://online-go.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "onmail",
+    "name": "onMail",
+    "url": "https://mail.onmail.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "outreach",
+    "name": "Outreach",
+    "url": "https://accounts.outreach.io/users/sign_in",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "OVHCloud",
+    "name": "OVH Cloud",
+    "url": "https://www.ovh.com/auth",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "paperless-ngx",
+    "name": "Paperless-ngx",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "parro",
+    "name": "Parro",
+    "url": "https://talk.parro.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pastebin",
+    "name": "Pastebin",
+    "url": "https://pastebin.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "patreon",
+    "name": "Patreon",
+    "url": "https://www.patreon.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "paymo",
+    "name": "Paymo",
+    "url": "https://app.paymoapp.com/auth/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "url": "https://design.penpot.app/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "peopleperhour",
+    "name": "People Per Hour",
+    "url": "https://www.peopleperhour.com/notification/list",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "url": "https://www.perplexity.ai/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "phanpy",
+    "name": "Phanpy",
+    "url": "https://phanpy.social/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "url": "https://phtn.app/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "url": "https://pinterest.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pipefy",
+    "name": "Pipefy",
+    "url": "https://app.pipefy.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pivotal-tracker",
+    "name": "pivotal-tracker",
+    "url": "https://www.pivotaltracker.com/signin",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pixelfed",
+    "name": "Pixelfed",
+    "url": "https://pixelfed.social",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pixieset",
+    "name": "Pixieset",
+    "url": "https://accounts.pixieset.com/dashboard/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "plan",
+    "name": "Plan",
+    "url": "https://getplan.co/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "planitpoker",
+    "name": "PlanITPoker",
+    "url": "https://www.planitpoker.com/board/#/room/{teamId}",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "plek",
+    "name": "Plek",
+    "url": "https://{teamId}.plek.co",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "pleroma",
+    "name": "Pleroma",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "plurk",
+    "name": "Plurk",
+    "url": "https://www.plurk.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pocket",
+    "name": "Pocket",
+    "url": "https://getpocket.com/a/queue/list/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pocketcasts",
+    "name": "PocketCasts",
+    "url": "https://play.pocketcasts.com/user/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "podio",
+    "name": "Podio",
+    "url": "https://podio.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "poe",
+    "name": "poe",
+    "url": "https://poe.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pomodoro-tracker",
+    "name": "Pomodoro Tracker",
+    "url": "https://pomodoro-tracker.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "portainer",
+    "name": "Portainer",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "posteo",
+    "name": "Posteo",
+    "url": "https://posteo.de/webmail/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "url": "https://web.postman.co/home",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "primal",
+    "name": "Primal",
+    "url": "https://primal.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "producthunt",
+    "name": "Product Hunt",
+    "url": "https://www.producthunt.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "productive",
+    "name": "Productive",
+    "url": "https://app.productive.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "proton-drive",
+    "name": "Proton Drive",
+    "url": "https://drive.proton.me",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "proton-mail",
+    "name": "Proton Mail",
+    "url": "https://mail.proton.me/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "proton-pass",
+    "name": "Proton Pass",
+    "url": "https://pass.proton.me/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "proton-calendar",
+    "name": "ProtonCalendar",
+    "url": "https://calendar.proton.me/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "protonet",
+    "name": "protonet",
+    "url": "https://{teamID}.protonet.info",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "pulse-sms",
+    "name": "PulseSMS",
+    "url": "https://pulsesms.app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "purelymail",
+    "name": "Purelymail",
+    "url": "https://inbox.purelymail.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pushbullet",
+    "name": "Pushbullet",
+    "url": "https://www.pushbullet.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "pushover",
+    "name": "Pushover",
+    "url": "https://client.pushover.net",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "quora",
+    "name": "Quora",
+    "url": "https://www.quora.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "rainloop",
+    "name": "RainLoop",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "reclaim",
+    "name": "Reclaim",
+    "url": "https://app.reclaim.ai/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "url": "https://www.reddit.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "reddit-chat",
+    "name": "Reddit Chat",
+    "url": "https://chat.reddit.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "regex101",
+    "name": "Regex101",
+    "url": "https://regex101.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "url": "https://replit.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "revolt",
+    "name": "Revolt",
+    "url": "https://app.revolt.chat/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "ring-central",
+    "name": "RingCentral",
+    "url": "https://app.ringcentral.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "riseup",
+    "name": "Riseup.net",
+    "url": "https://mail.riseup.net",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "ritetag",
+    "name": "Ritetag",
+    "url": "https://ritetag.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "rocketchat",
+    "name": "Rocket.Chat",
+    "url": "https://{teamId}.rocket.chat",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "romeo",
+    "name": "Romeo",
+    "url": "http://romeo.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "roundcube",
+    "name": "Roundcube",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "rubika",
+    "name": "Rubika",
+    "url": "https://web.rubika.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "rydoo",
+    "name": "Rydoo",
+    "url": "https://app.rydoo.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "schildichat",
+    "name": "SchildiChat",
+    "url": "https://app.schildi.chat/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "scribens",
+    "name": "Scribens",
+    "url": "https://scribens.{teamId}",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "scrumpy",
+    "name": "Scrumpy",
+    "url": "https://app.scrumpy.io",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sendtask",
+    "name": "Sendtask",
+    "url": "https://app.sendtask.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "shad",
+    "name": "Shad",
+    "url": "https://my.shad.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sharezone",
+    "name": "Sharezone",
+    "url": "https://web.sharezone.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sheypoor",
+    "name": "Sheypoor",
+    "url": "https://www.sheypoor.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "simplelogin",
+    "name": "SimpleLogin",
+    "url": "https://app.simplelogin.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "simplenote",
+    "name": "Simplenote",
+    "url": "https://app.simplenote.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "skiff-mail",
+    "name": "Skiff Mail",
+    "url": "https://app.skiff.com/mail/inbox",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "skype",
+    "name": "Skype",
+    "url": "https://web.skype.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "url": "https://{teamId}.slack.com",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "slite",
+    "name": "Slite",
+    "url": "https://{teamId}.slite.com",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "slowly",
+    "name": "Slowly",
+    "url": "https://web.getslowly.com/home",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "smartsheet",
+    "name": "SmartSheet",
+    "url": "https://app.smartsheet.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "snapchat",
+    "name": "Snapchat",
+    "url": "https://web.snapchat.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "snapdrop",
+    "name": "Snapdrop",
+    "url": "http://snapdrop.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sococo",
+    "name": "Sococo",
+    "url": "https://app.sococo.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sogo",
+    "name": "SOGo",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "somtoday",
+    "name": "SomToday",
+    "url": "https://inloggen.somtoday.nl",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sonarqube",
+    "name": "SonarQube",
+    "url": "https://{sonarqube}/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "soroushplus",
+    "name": "Soroush+",
+    "url": "https://web.splus.ir/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "withspectrum",
+    "name": "Spectrum",
+    "url": "https://spectrum.chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "spikenow",
+    "name": "Spike",
+    "url": "https://spikenow.com/web/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "stackoverflow",
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "stackoverflow-chat",
+    "name": "Stack Overflow Chat",
+    "url": "https://chat.stackoverflow.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "stackexchange",
+    "name": "StackExchange",
+    "url": "https://stackexchange.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "standardnotes",
+    "name": "StandardNotes",
+    "url": "https://app.standardnotes.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "statuzer",
+    "name": "Statuzer",
+    "url": "https://statuzer.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "steamchat",
+    "name": "SteamChat",
+    "url": "https://steamcommunity.com/chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "stoat",
+    "name": "Stoat",
+    "url": "https://stoat.chat/app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "strava",
+    "name": "Strava",
+    "url": "https://www.strava.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "url": "https://app.stride.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "super-productivity",
+    "name": "Super Productivity",
+    "url": "https://app.super-productivity.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "superhuman",
+    "name": "Superhuman",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "superlist",
+    "name": "Superlist",
+    "url": "https://app.superlist.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sympatia",
+    "name": "Sympatia",
+    "url": "https://sympatia.onet.pl/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "sync",
+    "name": "Sync",
+    "url": "https://cp.sync.com/files/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "synology-chat",
+    "name": "Synology Chat",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "taiga",
+    "name": "Taiga",
+    "url": "https://tree.taiga.io",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "talkspirit",
+    "name": "talkspirit",
+    "url": "https://{teamId}.talkspirit.com",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "tawk",
+    "name": "Tawk.to",
+    "url": "https://dashboard.tawk.to/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "tchap",
+    "name": "Tchap",
+    "url": "https://www.tchap.gouv.fr/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "teamleader",
+    "name": "teamleader",
+    "url": "https://app.teamleader.eu/?gotologin",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "teamweek",
+    "name": "Teamweek",
+    "url": "https://app.teamweek.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "teamwork-projects",
+    "name": "Teamwork Projects",
+    "url": "https://{teamId}.teamwork.com/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "techmeme",
+    "name": "techmeme",
+    "url": "https://techmeme.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "url": "https://web.telegram.org",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "temp-mail",
+    "name": "Temp Mail",
+    "url": "https://temp-mail.org/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "thelounge",
+    "name": "The Lounge",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "threads",
+    "name": "Threads",
+    "url": "https://threads.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "threema",
+    "name": "Threema",
+    "url": "https://web.threema.ch",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "thundermail",
+    "name": "Thundermail",
+    "url": "https://webmail.thundermail.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "tick",
+    "name": "tick",
+    "url": "http://app.tickspot.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "TickTick",
+    "name": "TickTick",
+    "url": "https://www.ticktick.com/#p/inbox/tasks",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "tiktok",
+    "name": "Tiktok",
+    "url": "https://tiktok.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "tinder",
+    "name": "Tinder",
+    "url": "https://tinder.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "tt-rss",
+    "name": "Tiny Tiny RSS",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "tixio",
+    "name": "Tixio",
+    "url": "https://{teamId}.tixio.io/app/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "url": "https://todoist.com/app",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "toggl",
+    "name": "Toggl",
+    "url": "https://www.toggl.com/app/timer",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "traccar",
+    "name": "Traccar",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "trakt",
+    "name": "Trakt",
+    "url": "https://trakt.tv",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "url": "https://trello.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "trilium",
+    "name": "Trilium",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "truelancer",
+    "name": "Truelancer",
+    "url": "https://www.truelancer.com/notifications?page=1",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "tutanota",
+    "name": "Tuta Mail",
+    "url": "https://app.tuta.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "tweetdeck",
+    "name": "Tweetdeck",
+    "url": "https://tweetdeck.twitter.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "twist",
+    "name": "Twist",
+    "url": "https://twistapp.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "url": "https://www.twitch.tv/{teamId}/chat",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "twitter-dm",
+    "name": "Twitter DM",
+    "url": "https://mobile.twitter.com/messages",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "udemy",
+    "name": "Udemy",
+    "url": "https://www.udemy.com/home/my-courses/learning/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "unraid",
+    "name": "Unraid",
+    "url": "{teamId}",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "upwork",
+    "name": "upwork",
+    "url": "https://www.upwork.com/ab/notifications/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "virasty",
+    "name": "Virasty",
+    "url": "https://virasty.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "virgool",
+    "name": "Virgool",
+    "url": "https://virgool.io/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "viva-engage",
+    "name": "Viva Engage",
+    "url": "https://engage.cloud.microsoft",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "vk",
+    "name": "VK",
+    "url": "https://www.vk.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "voetbal-nl",
+    "name": "Voetbal",
+    "url": "https://voetbal.nl/inloggen",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "voxer",
+    "name": "Voxer",
+    "url": "https://web.voxer.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wafrn",
+    "name": "Wafrn",
+    "url": "https://app.wafrn.net",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wakapi",
+    "name": "Wakapi",
+    "url": "https://wakapi.dev",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wakatime",
+    "name": "Wakatime",
+    "url": "https://wakatime.com/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wallabag",
+    "name": "Wallabag",
+    "url": "https://app.wallabag.it/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "webex-teams",
+    "name": "Webex Teams",
+    "url": "https://web.webex.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wechat",
+    "name": "WeChat",
+    "url": "https://web.wechat.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "weekplan",
+    "name": "Weekplan",
+    "url": "https://next.weekplan.net/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "whatsapp",
+    "name": "WhatsApp",
+    "url": "https://web.whatsapp.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "whereby",
+    "name": "Whereby",
+    "url": "https://whereby.com/{teamId}",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "whimsical",
+    "name": "Whimsical",
+    "url": "https://whimsical.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia",
+    "url": "https://www.wikipedia.org/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wire",
+    "name": "Wire",
+    "url": "https://app.wire.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "wisgoon",
+    "name": "Wisgoon",
+    "url": "https://wisgoon.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "workflowy",
+    "name": "WorkFlowy",
+    "url": "https://workflowy.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "workplace",
+    "name": "Workplace",
+    "url": "https://{teamId}.workplace.com/chat",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "wrike",
+    "name": "Wrike",
+    "url": "https://www.wrike.com/login/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "twitter",
+    "name": "X",
+    "url": "https://x.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "xing",
+    "name": "XING",
+    "url": "https://www.xing.com/messenger/global",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "xmpp",
+    "name": "XMPP",
+    "url": "https://inverse.chat",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "yahoo-mail",
+    "name": "Yahoo Mail",
+    "url": "https://mail.yahoo.com",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "yandex-mail",
+    "name": "Yandex Mail",
+    "url": "https://mail.yandex.ru",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "youtrack",
+    "name": "YouTrack",
+    "url": "https://{teamId}.myjetbrains.com/youtrack/",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "url": "https://youtube.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "youtubemusic",
+    "name": "YouTube Music",
+    "url": "https://music.youtube.com/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "zalo",
+    "name": "Zalo",
+    "url": "https://chat.zalo.me/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "zammad",
+    "name": "Zammad",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk",
+    "url": "https://{teamId}.zendesk.com/agent",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "zenhub",
+    "name": "ZenHub",
+    "url": "https://app.zenhub.com/workspaces/{teamId}/board",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "zeplin",
+    "name": "Zeplin",
+    "url": "https://app.zeplin.io/login",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "zimbra",
+    "name": "Zimbra",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho Mail",
+    "url": "https://www.zoho.com/mail/login.html",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "zoho-projects",
+    "name": "Zoho Projects",
+    "url": "https://projects.zoho.eu/",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "url": "https://app.zoom.us/wc/home",
+    "needsCustomUrl": false,
+    "license": "MIT"
+  },
+  {
+    "id": "zulip",
+    "name": "Zulip",
+    "url": "",
+    "needsCustomUrl": true,
+    "license": "MIT"
+  }
+]

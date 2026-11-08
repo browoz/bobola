@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Bobola app icon</title>
+  <desc id="desc">A bold geometric B made from two connected workspace chambers on a midnight tile.</desc>
+  <defs>
+    <filter id="cobalt" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.4" intercept="-0.2"/>
+        <feFuncG type="linear" slope="1.4" intercept="-0.2"/>
+        <feFuncB type="linear" slope="1.4" intercept="-0.2"/>
+      </feComponentTransfer>
+      <feColorMatrix type="matrix" values=".393 .769 .189 0 0 .349 .686 .168 0 0 .272 .534 .131 0 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="190"/>
+      <feColorMatrix type="saturate" values="8"/>
+    </filter>
+    <linearGradient id="tile" x1="54" y1="24" x2="456" y2="488" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172B4D"/>
+      <stop offset="0.56" stop-color="#101B35"/>
+      <stop offset="1" stop-color="#091225"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="126" y1="88" x2="392" y2="424" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9FFF2"/>
+      <stop offset="0.45" stop-color="#4AD9DF"/>
+      <stop offset="1" stop-color="#8F7BFF"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE2A8"/>
+      <stop offset="1" stop-color="#FF9A7A"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#cobalt)">
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#tile)"/>
+  <rect x="17" y="17" width="478" height="478" rx="111" stroke="#E7F4FF" stroke-opacity="0.16" stroke-width="2"/>
+
+  <!-- The two chambers and the shared spine form an unmistakable B. -->
+  <rect x="112" y="88" width="78" height="336" rx="39" fill="url(#mark)"/>
+  <path d="M166 88H307C365 88 412 135 412 193C412 251 365 298 307 298H166V226H307C325 226 340 211 340 193C340 175 325 160 307 160H166V88Z" fill="url(#mark)"/>
+  <path d="M166 214H307C365 214 412 261 412 319C412 377 365 424 307 424H166V352H307C325 352 340 337 340 319C340 301 325 286 307 286H166V214Z" fill="url(#mark)"/>
+
+  <!-- Small connection nodes turn the monogram into a workspace symbol. -->
+  <circle cx="166" cy="193" r="12" fill="url(#node)"/>
+  <circle cx="166" cy="319" r="12" fill="url(#node)"/>
+  <circle cx="379" cy="256" r="12" fill="url(#node)"/>
+  </g>
+</svg>

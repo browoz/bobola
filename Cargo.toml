@@ -1,0 +1,14 @@
+[workspace]
+members = ["crates/core", "src-tauri"]
+default-members = ["crates/core"]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license = "Apache-2.0"
+version = "1.0.1"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

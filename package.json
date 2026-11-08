@@ -1,0 +1,40 @@
+{
+  "name": "service-workspace",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1420 --strictPort",
+    "build": "svelte-check --tsconfig ./tsconfig.json && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 1420 --strictPort",
+    "tauri": "tauri",
+    "test": "node scripts/rust.mjs test -p workspace-core",
+    "test:native": "node scripts/native-smoke.mjs",
+    "format": "prettier --write src index.html package.json tsconfig.json vite.config.ts svelte.config.js scripts",
+    "desktop": "npm run build && node scripts/rust.mjs run -p service-workspace",
+    "desktop:build": "npm run build && node scripts/rust.mjs build -p service-workspace --release",
+    "release:windows": "npm run build && npx tauri build --bundles nsis && node scripts/package-windows.mjs",
+    "benchmark:protection": "node scripts/rust.mjs run --release -p workspace-core --example protection_benchmark",
+    "benchmark:resources": "node scripts/resource-benchmark.mjs",
+    "package:windows": "npm run build && npm test && node scripts/rust.mjs build -p service-workspace && npm run test:native && npx tauri build --bundles nsis && node scripts/package-windows.mjs",
+    "catalog": "node scripts/import-catalog.mjs"
+  },
+  "dependencies": {
+    "@lucide/svelte": "^1.67",
+    "@tauri-apps/api": "^2",
+    "svelte": "^5"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6",
+    "@tauri-apps/cli": "^2",
+    "@tsconfig/svelte": "^5",
+    "@types/node": "^24.19.2",
+    "playwright": "^1.56",
+    "prettier": "^3",
+    "prettier-plugin-svelte": "^3",
+    "svelte-check": "^4",
+    "typescript": "^5.9",
+    "vite": "^7"
+  }
+}

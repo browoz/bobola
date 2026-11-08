@@ -1,0 +1,13 @@
+Service SVGs are unmodified files from Ferdium Recipes, revision
+bc708f6aad02fc43168e976d1d65678eaf96f21b.
+
+Source: https://github.com/ferdium/ferdium-recipes
+License: https://github.com/ferdium/ferdium-recipes/blob/bc708f6aad02fc43168e976d1d65678eaf96f21b/LICENSE.md
+
+All 30 selected recipe metadata records declare MIT. The upstream repository
+license is reproduced in LICENSE.txt. Individual brand names and trademarks
+remain the property of their respective owners. Inclusion does not imply
+endorsement or guaranteed compatibility.
+
+The repository root SERVICE_ARTWORK_PROVENANCE.json records each exact source
+URL and SHA-256. No recipe scripts are included or executed.

@@ -1,0 +1,7076 @@
+{
+  "revision": "bc708f6aad02fc43168e976d1d65678eaf96f21b",
+  "recipeCount": 441,
+  "withImports": 435,
+  "methods": [
+    "clearStorageData",
+    "handleDarkMode",
+    "injectCSS",
+    "injectJSUnsafe",
+    "isImage",
+    "loop",
+    "onNotify",
+    "openNewWindow",
+    "releaseServiceWorkers",
+    "safeParseInt",
+    "safePerseInt",
+    "setAvatarImage",
+    "setBadge",
+    "setDialogTitle"
+  ],
+  "limitation": "Literal pattern inventory only; computed imports and aliases require manual review.",
+  "recipes": [
+    {
+      "id": "1password",
+      "name": "1Password",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "80lv",
+      "name": "80LV",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "affine",
+      "name": "Affine",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "air-droid",
+      "name": "AirDroid",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "airmessage",
+      "name": "AirMessage",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "alibaba-chat",
+      "name": "Alibaba Chat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "amazon-web-services",
+      "name": "Amazon Web Services",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "amazon-work-mail",
+      "name": "Amazon WorkMail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "android-messages",
+      "name": "Android Messages",
+      "apiCalls": [
+        "clearStorageData",
+        "injectCSS",
+        "loop",
+        "releaseServiceWorkers",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "anonaddy",
+      "name": "addy.io",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "anydo",
+      "name": "Any.do",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "aparat",
+      "name": "Aparat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "asana",
+      "name": "Asana",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "awork",
+      "name": "Awork",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "azure-devops",
+      "name": "Azure DevOps",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "azure-portal",
+      "name": "Azure Portal",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "badoo",
+      "name": "Badoo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bale",
+      "name": "Bale",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "basecamp",
+      "name": "Basecamp",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bigbluebutton",
+      "name": "BigBlueButton",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bip",
+      "name": "BiP",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bitbucket",
+      "name": "BitBucket",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "blinkist",
+      "name": "Blinkist",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "BlueBubbles",
+      "name": "BlueBubbles",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "box",
+      "name": "Box",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "brax.me",
+      "name": "Brax.Me",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bring",
+      "name": "Bring!",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "buffer",
+      "name": "Buffer",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bugzilla",
+      "name": "Bugzilla",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bycs-messenger",
+      "name": "Bycs-Messenger",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "campuswire",
+      "name": "Campuswire",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "onNotify",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "canvas",
+      "name": "Canvas",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "cara",
+      "name": "Cara",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "chatllm",
+      "name": "ChatLLM",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "chatra",
+      "name": "Chatra",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "chatwithgpt",
+      "name": "Chat with GPT",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "chatwoot",
+      "name": "Chatwoot",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "chatwork",
+      "name": "Chatwork",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "cinny",
+      "name": "Cinny",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "circuit",
+      "name": "Circuit",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ciscospark",
+      "name": "Cisco Spark",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "citrix-workspace",
+      "name": "Citrix Workspace",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "claude-ai",
+      "name": "claude.ai",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "cliq",
+      "name": "Cliq",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "clockify",
+      "name": "Clockify",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "clockwise",
+      "name": "Clockwise",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "clubhouse",
+      "name": "Clubhouse",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "conceptboard",
+      "name": "Conceptboard",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "crowdin",
+      "name": "Crowdin",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "daily-dev",
+      "name": "Daily.dev",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "daneshkar",
+      "name": "Daneshkar",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "deckblue",
+      "name": "DeckBlue",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "deepai",
+      "name": "DeepAI",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "dev-community",
+      "name": "Dev Community",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "devdocs",
+      "name": "DevDocs",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "devRant",
+      "name": "devRant",
+      "apiCalls": [
+        "clearStorageData",
+        "injectCSS",
+        "loop",
+        "releaseServiceWorkers",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "diagrams",
+      "name": "Diagrams",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "dialpad",
+      "name": "Dialpad",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "dict-cc",
+      "name": "Dict.cc",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "dingtalk",
+      "name": "Dingtalk",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe",
+        "isImage",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "discourse",
+      "name": "Discourse",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "disqus",
+      "name": "Disqus",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "divar",
+      "name": "Divar",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "dockerhub",
+      "name": "Docker Hub",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "drawio",
+      "name": "Draw.io",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "duckduckgo-ai-chat",
+      "name": "DuckDuckGo AI Chat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "easy-redmine",
+      "name": "Easy Redmine",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "eestekhdam",
+      "name": "e-Estekhdam",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "eitaa",
+      "name": "Eitaa",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "element",
+      "name": "Element",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "elevate",
+      "name": "Elevate",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "elk",
+      "name": "Elk",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "epicgames",
+      "name": "Epic Games Store",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "epicmail",
+      "name": "EpicMail",
+      "apiCalls": [
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "erepublik",
+      "name": "eRepublik",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "excalidraw",
+      "name": "Excalidraw",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "exploit-db",
+      "name": "Exploit DB",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "facebookpages",
+      "name": "Facebook Pages",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "fandom",
+      "name": "Fandom",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "farsnews",
+      "name": "FarsNews",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "fastmail",
+      "name": "FastMail",
+      "apiCalls": [
+        "injectJSUnsafe",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "feedbin",
+      "name": "Feedbin",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "feedly",
+      "name": "Feedly",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "firefly",
+      "name": "Firefly",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "fiverr",
+      "name": "Fiverr",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "fleep",
+      "name": "Fleep",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "flipboard",
+      "name": "Flipboard",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "flock",
+      "name": "Flock",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "flowdock",
+      "name": "Flowdock",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "fluffychat",
+      "name": "FluffyChat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "fluxer-gg",
+      "name": "Fluxer",
+      "apiCalls": [
+        "loop",
+        "safeParseInt",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "follow-is",
+      "name": "Follow",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "franz-custom-website",
+      "name": "Custom Website",
+      "apiCalls": [
+        "injectCSS",
+        "isImage",
+        "openNewWindow"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "freshdesk",
+      "name": "Freshdesk",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "freshrss",
+      "name": "FreshRSS",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "freshservice",
+      "name": "Freshservice",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "friendica",
+      "name": "Friendica",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "furaffinity",
+      "name": "Furaffinity",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gadugadu",
+      "name": "Gadu-Gadu",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gaming-on-linux",
+      "name": "GamingOnLinux",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gap",
+      "name": "Gap",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gather",
+      "name": "Gather",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gather-v2",
+      "name": "Gather 2.0",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gettr",
+      "name": "Gettr",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gitea",
+      "name": "Gitea",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gitter",
+      "name": "Gitter",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "glowing-bear",
+      "name": "Glowing Bear",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "good-reads",
+      "name": "Good Reads",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "injectJSUnsafe"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-classroom",
+      "name": "Google Classroom",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-contacts",
+      "name": "Google Contacts",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-docs",
+      "name": "Google Docs",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-duo",
+      "name": "Google Duo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-groups",
+      "name": "Google Groups",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-keep",
+      "name": "Google Keep",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-meet",
+      "name": "Google Meet",
+      "apiCalls": [
+        "clearStorageData",
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-news",
+      "name": "Google News",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-presentation",
+      "name": "Google Presentation",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-spreadsheets",
+      "name": "Google Spreadsheets",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-translate",
+      "name": "Google Translate",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "google-voice",
+      "name": "Google Voice",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gotify",
+      "name": "Gotify",
+      "apiCalls": [
+        "injectJSUnsafe",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "goto",
+      "name": "GoTo",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "gotomeeting",
+      "name": "Go To Meeting",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "groupme",
+      "name": "GroupMe",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "guilded",
+      "name": "Guilded",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "guru",
+      "name": "guru.com",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "habitica",
+      "name": "Habitica",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hackmd",
+      "name": "HackMd",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hangouts",
+      "name": "Google Chat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hangoutschat",
+      "name": "Hangouts Chat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "harvest",
+      "name": "Harvest",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hastebin",
+      "name": "Hastebin",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "help-scout",
+      "name": "Help Scout",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hey",
+      "name": "Hey",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hostnet",
+      "name": "Hostnet",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hubstaff",
+      "name": "HubStaff",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "hugging-chat",
+      "name": "Hugging Chat",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "iberbox",
+      "name": "IberBox",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "iCloud",
+      "name": "iCloud",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "icloud-mail",
+      "name": "iCloud Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safePerseInt",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "icloud-reminders",
+      "name": "iCloud Reminders",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "icq",
+      "name": "ICQ",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "idobata",
+      "name": "Idobata",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "igap",
+      "name": "iGap",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "infomaniak-calendar",
+      "name": "Infomaniak Calendar",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "infomaniak-kdrive",
+      "name": "Infomaniak KDrive",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "infomaniak-mail",
+      "name": "Infomaniak Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "inoreader",
+      "name": "Inoreader",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "isImage",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "instagram-direct-messages",
+      "name": "Instagram Direct Messages",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "invoice-ninja",
+      "name": "Invoice Ninja",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "iranestekhdam",
+      "name": "IranEstekhdam",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "irantalent",
+      "name": "IranTalent",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "irccloud",
+      "name": "IRCCloud",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "iris-messenger",
+      "name": "Iris Messenger",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "it-tools",
+      "name": "IT-Tools",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jitsi",
+      "name": "Jitsi Meet",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jobinja",
+      "name": "Jobinja",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jobvision",
+      "name": "JobVision",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jollor",
+      "name": "jollor",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jsoncrack",
+      "name": "JSON Crack",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "kaizala",
+      "name": "Microsoft Kaizala",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "karboom",
+      "name": "Karboom",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "keepervault",
+      "name": "Keeper Vault",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "keybase.io",
+      "name": "Keybase",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "kimaicloud",
+      "name": "Kimai Cloud",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "kiwiirc",
+      "name": "KiwiIRC",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ko-fi",
+      "name": "Ko-fi",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "lark",
+      "name": "Lark",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "lastpass",
+      "name": "LastPass",
+      "apiCalls": [
+        "clearStorageData",
+        "injectCSS",
+        "loop",
+        "releaseServiceWorkers",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "lemmy",
+      "name": "Lemmy",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "lineworks",
+      "name": "Line Works",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "lobe-chat",
+      "name": "LobeChat",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "localazy",
+      "name": "Localazy",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "loginformant",
+      "name": "LogInformant",
+      "apiCalls": [
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "magic-level",
+      "name": "Magic Level",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mailbox.org",
+      "name": "Mailbox.org",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mailfence",
+      "name": "Mailfence",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mastodeck",
+      "name": "Mastodeck",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mattermost",
+      "name": "Mattermost",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "max",
+      "name": "MaX",
+      "apiCalls": [
+        "openNewWindow"
+      ],
+      "imports": [],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mdaemon",
+      "name": "MDaemon Worldclient",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "meetup",
+      "name": "Meetup",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "memos",
+      "name": "memos",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "onNotify",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "meta-business-suite",
+      "name": "Meta Business Suite",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mewe",
+      "name": "MeWe",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mightytext",
+      "name": "MightyText",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "miniflux",
+      "name": "Miniflux",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mirotalk-bro",
+      "name": "MiroTalk Live Broadcast",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mirotalk-c2c",
+      "name": "MiroTalk C2C",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mirotalk-p2p",
+      "name": "MiroTalk P2P",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mirotalk-sfu",
+      "name": "MiroTalk SFU",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mirotalk-webrtc",
+      "name": "MiroTalk WebRTC",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "misskey",
+      "name": "Misskey",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mistral",
+      "name": "Le Chat by Mistral",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "monarch-money",
+      "name": "Monarch Money",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "monday",
+      "name": "Monday",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "monicahq",
+      "name": "Monica HQ",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "moodle",
+      "name": "Moodle",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ms-planner",
+      "name": "Microsoft Planner",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "msteams",
+      "name": "Microsoft Teams",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe",
+        "loop",
+        "releaseServiceWorkers",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mstodo",
+      "name": "Microsoft To Do",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mysms",
+      "name": "MySMS",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "navidrome",
+      "name": "Navidrome",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nazdika",
+      "name": "Nazdika",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "netatmo-energy",
+      "name": "Netatmo Energy",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "NewsBlur",
+      "name": "NewsBlur",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud-calendar",
+      "name": "Nextcloud Calendar",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud-carnet",
+      "name": "Carnet (Nextcloud)",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud-cospend",
+      "name": "Nextcloud Cospend",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud-deck",
+      "name": "Nextcloud Deck",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud-news",
+      "name": "Nextcloud News",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud-talk",
+      "name": "Nextcloud Talk",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextcloud-tasks",
+      "name": "Nextcloud Tasks",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nextdoor",
+      "name": "Nextdoor",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "noisli",
+      "name": "Noisli",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nomadlist",
+      "name": "NomadList",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nostr",
+      "name": "Nostr",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "notion-calendar",
+      "name": "Notion Calendar",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "notion-mail",
+      "name": "Notion Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ntfy",
+      "name": "ntfy",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "odoo",
+      "name": "Odoo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "odysee",
+      "name": "Odysee",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "office365-owa",
+      "name": "Office 365 Outlook",
+      "apiCalls": [
+        "injectCSS",
+        "isImage",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "onenote",
+      "name": "OneNote",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "online-go",
+      "name": "Online Go",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "onmail",
+      "name": "onMail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "oreilly-learning",
+      "name": "O'Reilly Learning",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "OVHCloud",
+      "name": "OVH Cloud",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "paperless-ngx",
+      "name": "Paperless-ngx",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "parro",
+      "name": "Parro",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pastebin",
+      "name": "Pastebin",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "patreon",
+      "name": "Patreon",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "paymo",
+      "name": "Paymo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "peopleperhour",
+      "name": "People Per Hour",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity AI",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "phanpy",
+      "name": "Phanpy",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pipefy",
+      "name": "Pipefy",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pivotal-tracker",
+      "name": "pivotal-tracker",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pixelfed",
+      "name": "Pixelfed",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pixieset",
+      "name": "Pixieset",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "plan",
+      "name": "Plan",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "planitpoker",
+      "name": "PlanITPoker",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "plek",
+      "name": "Plek",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pleroma",
+      "name": "Pleroma",
+      "apiCalls": [
+        "loop",
+        "safeParseInt",
+        "setAvatarImage",
+        "setBadge"
+      ],
+      "imports": [],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "plurk",
+      "name": "Plurk",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pocket",
+      "name": "Pocket",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pocketcasts",
+      "name": "PocketCasts",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "podio",
+      "name": "Podio",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "poe",
+      "name": "poe",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pomodoro-tracker",
+      "name": "Pomodoro Tracker",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "portainer",
+      "name": "Portainer",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "posteo",
+      "name": "Posteo",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "primal",
+      "name": "Primal",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "producthunt",
+      "name": "Product Hunt",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "productive",
+      "name": "Productive",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "proton-calendar",
+      "name": "ProtonCalendar",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "proton-drive",
+      "name": "Proton Drive",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "proton-mail",
+      "name": "Proton Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "proton-pass",
+      "name": "Proton Pass",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "protonet",
+      "name": "protonet",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pulse-sms",
+      "name": "PulseSMS",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "purelymail",
+      "name": "Purelymail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pushbullet",
+      "name": "Pushbullet",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "pushover",
+      "name": "Pushover",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "quora",
+      "name": "Quora",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "rainloop",
+      "name": "RainLoop",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "reclaim",
+      "name": "Reclaim",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "reddit-chat",
+      "name": "Reddit Chat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "regex101",
+      "name": "Regex101",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "revolt",
+      "name": "Revolt",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ring-central",
+      "name": "RingCentral",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "riseup",
+      "name": "Riseup.net",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ritetag",
+      "name": "Ritetag",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "rocketchat",
+      "name": "Rocket.Chat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setAvatarImage",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "romeo",
+      "name": "Romeo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "roundcube",
+      "name": "Roundcube",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "rubika",
+      "name": "Rubika",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "rydoo",
+      "name": "Rydoo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "schildichat",
+      "name": "SchildiChat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "scribens",
+      "name": "Scribens",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "scrumpy",
+      "name": "Scrumpy",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sendtask",
+      "name": "Sendtask",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "shad",
+      "name": "Shad",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sharezone",
+      "name": "Sharezone",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sheypoor",
+      "name": "Sheypoor",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "simplelogin",
+      "name": "SimpleLogin",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "simplenote",
+      "name": "Simplenote",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "skiff-mail",
+      "name": "Skiff Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "skype",
+      "name": "Skype",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setAvatarImage",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "slite",
+      "name": "Slite",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "slowly",
+      "name": "Slowly",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "smartsheet",
+      "name": "SmartSheet",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "snapdrop",
+      "name": "Snapdrop",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sococo",
+      "name": "Sococo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sogo",
+      "name": "SOGo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "somtoday",
+      "name": "SomToday",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sonarqube",
+      "name": "SonarQube",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "soroushplus",
+      "name": "Soroush+",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "spikenow",
+      "name": "Spike",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "stackexchange",
+      "name": "StackExchange",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "stackoverflow",
+      "name": "Stack Overflow",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "stackoverflow-chat",
+      "name": "Stack Overflow Chat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "standardnotes",
+      "name": "StandardNotes",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "statuzer",
+      "name": "Statuzer",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "steamchat",
+      "name": "SteamChat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "stoat",
+      "name": "Stoat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "strava",
+      "name": "Strava",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "stride",
+      "name": "Stride",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "super-productivity",
+      "name": "Super Productivity",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "superlist",
+      "name": "Superlist",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sympatia",
+      "name": "Sympatia",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "sync",
+      "name": "Sync",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "synology-chat",
+      "name": "Synology Chat",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "taiga",
+      "name": "Taiga",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "talkspirit",
+      "name": "talkspirit",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tawk",
+      "name": "Tawk.to",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tchap",
+      "name": "Tchap",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "teamleader",
+      "name": "teamleader",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "teamweek",
+      "name": "Teamweek",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "teamwork-projects",
+      "name": "Teamwork Projects",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "techmeme",
+      "name": "techmeme",
+      "apiCalls": [
+        "injectCSS",
+        "isImage",
+        "openNewWindow"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "apiCalls": [
+        "injectCSS",
+        "isImage",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "temp-mail",
+      "name": "Temp Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "thelounge",
+      "name": "The Lounge",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "isImage",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "threema",
+      "name": "Threema",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "thundermail",
+      "name": "Thundermail",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tick",
+      "name": "tick",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "TickTick",
+      "name": "TickTick",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tiktok",
+      "name": "Tiktok",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tixio",
+      "name": "Tixio",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "toggl",
+      "name": "Toggl",
+      "apiCalls": [
+        "injectJSUnsafe",
+        "loop"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "traccar",
+      "name": "Traccar",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "trakt",
+      "name": "Trakt",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "trilium",
+      "name": "Trilium",
+      "apiCalls": [],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "truelancer",
+      "name": "Truelancer",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tt-rss",
+      "name": "Tiny Tiny RSS",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tutanota",
+      "name": "Tuta Mail",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "tweetdeck",
+      "name": "Tweetdeck",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "twist",
+      "name": "Twist",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "twitter",
+      "name": "X",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "twitter-dm",
+      "name": "Twitter DM",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "unraid",
+      "name": "Unraid",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "upwork",
+      "name": "upwork",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "virasty",
+      "name": "Virasty",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "virgool",
+      "name": "Virgool",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "viva-engage",
+      "name": "Viva Engage",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "vk",
+      "name": "VK",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "voetbal-nl",
+      "name": "Voetbal",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "voxer",
+      "name": "Voxer",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wafrn",
+      "name": "Wafrn",
+      "apiCalls": [
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wakapi",
+      "name": "Wakapi",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wakatime",
+      "name": "Wakatime",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wallabag",
+      "name": "Wallabag",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "webex-teams",
+      "name": "Webex Teams",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wechat",
+      "name": "WeChat",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "weekplan",
+      "name": "Weekplan",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "apiCalls": [
+        "handleDarkMode",
+        "injectCSS",
+        "injectJSUnsafe",
+        "loop",
+        "releaseServiceWorkers",
+        "setBadge",
+        "setDialogTitle"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "whereby",
+      "name": "Whereby",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "whimsical",
+      "name": "Whimsical",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia",
+      "apiCalls": [
+        "injectCSS"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wire",
+      "name": "Wire",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wisgoon",
+      "name": "Wisgoon",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "withspectrum",
+      "name": "Spectrum",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "workflowy",
+      "name": "WorkFlowy",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "workplace",
+      "name": "Workplace",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "onNotify",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "wrike",
+      "name": "Wrike",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "xing",
+      "name": "XING",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "xmpp",
+      "name": "XMPP",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "yahoo-mail",
+      "name": "Yahoo Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "yandex-mail",
+      "name": "Yandex Mail",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "youtrack",
+      "name": "YouTrack",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "youtubemusic",
+      "name": "YouTube Music",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zalo",
+      "name": "Zalo",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zammad",
+      "name": "Zammad",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zendesk",
+      "name": "Zendesk",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zenhub",
+      "name": "ZenHub",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zeplin",
+      "name": "Zeplin",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zimbra",
+      "name": "Zimbra",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zoho",
+      "name": "Zoho Mail",
+      "apiCalls": [
+        "injectCSS",
+        "injectJSUnsafe",
+        "loop"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zoho-projects",
+      "name": "Zoho Projects",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "apiCalls": [
+        "injectCSS",
+        "isImage",
+        "loop",
+        "openNewWindow",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    },
+    {
+      "id": "zulip",
+      "name": "Zulip",
+      "apiCalls": [
+        "injectCSS",
+        "loop",
+        "safeParseInt",
+        "setBadge"
+      ],
+      "imports": [
+        "path"
+      ],
+      "requiresBrowserAdapter": true,
+      "adapterStatus": "not-ported",
+      "catalogMetadata": "imported",
+      "runtimeVerified": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source": "https://github.com/ferdium/ferdium-recipes",
+  "revision": "bc708f6aad02fc43168e976d1d65678eaf96f21b",
+  "count": 441,
+  "content": "URL metadata only; upstream recipe scripts and artwork are not bundled.",
+  "licenses": [
+    "MIT",
+    "GPL",
+    "UNSPECIFIED"
+  ]
+}

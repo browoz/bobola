@@ -1,0 +1,431 @@
+[
+  {
+    "id": "whatsapp",
+    "name": "WhatsApp",
+    "url": "https://web.whatsapp.com",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/whatsapp.svg",
+    "hosts": [
+      "web.whatsapp.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/whatsapp/icon.svg",
+    "sha256": "c39f56f7e0ff6b8cf006c5c31d03cc619999e0a7af38ac59b48151fc002fcb39"
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "url": "https://web.telegram.org",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/telegram.svg",
+    "hosts": [
+      "web.telegram.org"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/telegram/icon.svg",
+    "sha256": "1f4db203ae25368e859d08bd2faa124295f70cc41158b87108302ab01fcc3c8d"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "url": "https://discord.com/app",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/discord.svg",
+    "hosts": [
+      "discord.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/discord/icon.svg",
+    "sha256": "e89d740ad353f9a994b79476f8e45e436dd565bd676f6e904fb07cedd8f3f35b"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "url": "https://{teamId}.slack.com",
+    "needsCustomUrl": true,
+    "license": "MIT",
+    "icon": "/service-icons/slack.svg",
+    "hosts": [
+      "slack.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/slack/icon.svg",
+    "sha256": "1167e7ed2c824002a2b70f5f5d6d76d4cd7557a048867e202ab451e87978b8e8"
+  },
+  {
+    "id": "msteams",
+    "name": "Microsoft Teams",
+    "url": "https://teams.cloud.microsoft",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/msteams.svg",
+    "hosts": [
+      "teams.microsoft.com",
+      "teams.live.com",
+      "teams.cloud.microsoft"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/msteams/icon.svg",
+    "sha256": "324a12750968fd42200562e550fc812d978cadb24dc90e62bc53be3c1e65e079"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "url": "https://facebook.com/messages",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/messenger.svg",
+    "hosts": [
+      "messenger.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/messenger/icon.svg",
+    "sha256": "5a97dd094fb2a251ff91eb1b6ccd7fff1dd5f43fe14dc651fd59789cf1854f90"
+  },
+  {
+    "id": "hangoutschat",
+    "name": "Hangouts Chat",
+    "url": "https://chat.google.com",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/hangoutschat.svg",
+    "hosts": [
+      "chat.google.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/hangoutschat/icon.svg",
+    "sha256": "b4d63dedcec2e7b53bb445d7073d9595ee8d794b20ffdd211422c6c866b0b334"
+  },
+  {
+    "id": "gmail",
+    "name": "Gmail",
+    "url": "https://mail.google.com",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/gmail.svg",
+    "hosts": [
+      "mail.google.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/gmail/icon.svg",
+    "sha256": "d4baac613d1617a492b2449416e4425eb16d1f2c69a8906504cdd386644447d9"
+  },
+  {
+    "id": "office365-owa",
+    "name": "Office 365 Outlook",
+    "url": "https://outlook.cloud.microsoft/mail/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/office365-owa.svg",
+    "hosts": [
+      "outlook.office.com",
+      "outlook.office365.com",
+      "outlook.live.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/office365-owa/icon.svg",
+    "sha256": "923e606ec661017a0f46cf5900bcb624e3f4925d96b9cc04de64b7463524e399"
+  },
+  {
+    "id": "proton-mail",
+    "name": "Proton Mail",
+    "url": "https://mail.proton.me/login",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/proton-mail.svg",
+    "hosts": [
+      "mail.proton.me",
+      "mail.protonmail.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/proton-mail/icon.svg",
+    "sha256": "6700631d86424c0205ef41709640ad1523812e7815dd1adbe9681ce1fdffa6bf"
+  },
+  {
+    "id": "yahoo-mail",
+    "name": "Yahoo Mail",
+    "url": "https://mail.yahoo.com",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/yahoo-mail.svg",
+    "hosts": [
+      "mail.yahoo.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/yahoo-mail/icon.svg",
+    "sha256": "1dd91bce56d2f318bfb43f82dd641c8240b3a3d685b15426c33d199682f26a45"
+  },
+  {
+    "id": "fastmail",
+    "name": "FastMail",
+    "url": "https://www.fastmail.com/mail/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/fastmail.svg",
+    "hosts": [
+      "app.fastmail.com"
+    ],
+    "keepLive": true,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/fastmail/icon.svg",
+    "sha256": "0e044fc478b568bf0fdd43288033dd1e8bdd7d25988fd7784f37f4e17ab9ca19"
+  },
+  {
+    "id": "google-calendar",
+    "name": "Google Calendar",
+    "url": "https://calendar.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/google-calendar.svg",
+    "hosts": [
+      "calendar.google.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/google-calendar/icon.svg",
+    "sha256": "4cb3db569a2eed1b261ed8f1693bc4c856e5ea47f5f893933e6545eaad551fd8"
+  },
+  {
+    "id": "google-drive",
+    "name": "Google Drive",
+    "url": "https://drive.google.com/drive/my-drive",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/google-drive.svg",
+    "hosts": [
+      "drive.google.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/google-drive/icon.svg",
+    "sha256": "8fb6ba02e68a46ed70f3801313aca252ef8fcf6eef6f47d2fdffa28122cc46fe"
+  },
+  {
+    "id": "google-keep",
+    "name": "Google Keep",
+    "url": "https://keep.google.com/u/0/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/google-keep.svg",
+    "hosts": [
+      "keep.google.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/google-keep/icon.svg",
+    "sha256": "7b80c5d0fcad6845f76a51a543a9b7208b29f753ed47fa0756b657658126256f"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "url": "https://www.notion.so/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/notion.svg",
+    "hosts": [
+      "notion.so"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/notion/icon.svg",
+    "sha256": "6ab2bc5e69a25fd855f0558695edce8b81ae2d46b35a324318f8bfe592ef4fd6"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "url": "https://trello.com/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/trello.svg",
+    "hosts": [
+      "trello.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/trello/icon.svg",
+    "sha256": "b8c227e916c8bc3c1bc087f2bb789d427d4ca6cf0cf15f2afea1d919637848b0"
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "url": "https://todoist.com/app",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/todoist.svg",
+    "hosts": [
+      "app.todoist.com",
+      "todoist.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/todoist/icon.svg",
+    "sha256": "fc0caa88e692a55eecb4ad60c22caf0e94ee940ffa5d46569d6f98d54189e744"
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "url": "https://app.asana.com",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/asana.svg",
+    "hosts": [
+      "app.asana.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/asana/icon.svg",
+    "sha256": "a8f22abd3b9cc17bc65c187e71253fc3683aeb93f625836dde2593012a385b6d"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "url": "https://github.com/notifications",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/github.svg",
+    "hosts": [
+      "github.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/github/icon.svg",
+    "sha256": "976bbbb507f7986a617422ce206b8b17866f9f3b55e8aec8066d3728bb5e4c81"
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "url": "https://gitlab.com/users/sign_in",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/gitlab.svg",
+    "hosts": [
+      "gitlab.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/gitlab/icon.svg",
+    "sha256": "da7165f0bd134688b8a6d7e4f0fc9fbb625b3c6fe11a98be9559705739f77726"
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/messaging",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/linkedin.svg",
+    "hosts": [
+      "linkedin.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/linkedin/icon.svg",
+    "sha256": "09738776399221dab4bc65aa0a9d152c8b85200aad157b80eb5ca738e43f14d2"
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "url": "https://instagram.com/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/instagram.svg",
+    "hosts": [
+      "instagram.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/instagram/icon.svg",
+    "sha256": "4f9ea6b049e51b229152153dc1119f0bf4dac50d43c46f9154e5fb7da43bec71"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "url": "https://www.reddit.com/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/reddit.svg",
+    "hosts": [
+      "reddit.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/reddit/icon.svg",
+    "sha256": "1e5c12b1c01db6014f2df92de254b8c16c003a54c9fb4a15908ec50954820c96"
+  },
+  {
+    "id": "twitter",
+    "name": "X",
+    "url": "https://x.com",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/twitter.svg",
+    "hosts": [
+      "x.com",
+      "twitter.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/twitter/icon.svg",
+    "sha256": "e657aebd13da25563d86bc5c51afefb85cb7d15b96b7c3a331b9e0a46102872b"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "url": "https://youtube.com/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/youtube.svg",
+    "hosts": [
+      "www.youtube.com",
+      "youtube.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/youtube/icon.svg",
+    "sha256": "3713c6b80a914fdc2d88ff00557caf1ddfd2c5e2ac45698f754e5cb1e4cffe8c"
+  },
+  {
+    "id": "youtubemusic",
+    "name": "YouTube Music",
+    "url": "https://music.youtube.com/",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/youtubemusic.svg",
+    "hosts": [
+      "music.youtube.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/youtubemusic/icon.svg",
+    "sha256": "663d4f53472eed36d6aed0cf001435998ea374fadf8b6c5126021a3f811de56c"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com/chat",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/chatgpt.svg",
+    "hosts": [
+      "chatgpt.com",
+      "chat.openai.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/chatgpt/icon.svg",
+    "sha256": "c2756ea52add3ed5247e73efdc1659620765604197a3630d9791344940eee749"
+  },
+  {
+    "id": "claude-ai",
+    "name": "claude.ai",
+    "url": "https://claude.ai",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/claude-ai.svg",
+    "hosts": [
+      "claude.ai"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/claude-ai/icon.svg",
+    "sha256": "012b32d72a68de8b0d7379fe07447cd6d93f74816c56083ba90391adde53da40"
+  },
+  {
+    "id": "google-gemini",
+    "name": "Google Gemini",
+    "url": "https://gemini.google.com",
+    "needsCustomUrl": false,
+    "license": "MIT",
+    "icon": "/service-icons/google-gemini.svg",
+    "hosts": [
+      "gemini.google.com"
+    ],
+    "keepLive": false,
+    "source": "https://raw.githubusercontent.com/ferdium/ferdium-recipes/bc708f6aad02fc43168e976d1d65678eaf96f21b/recipes/google-gemini/icon.svg",
+    "sha256": "928a8afdf8f47666f8ef1a04ef2c0ddd626cb4eec7f2ed17d739dd9f55e5656a"
+  }
+]

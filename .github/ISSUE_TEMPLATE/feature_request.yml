@@ -1,0 +1,21 @@
+name: Feature or service request
+description: Suggest an improvement or describe service compatibility needs.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe your workflow and what is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
+  - type: input
+    id: service
+    attributes:
+      label: Service URL, if relevant

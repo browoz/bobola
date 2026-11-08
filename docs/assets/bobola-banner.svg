@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Bobola — One shell. Many worlds.</title>
+  <desc id="desc">Cream and cobalt editorial banner for a lightweight Rust-powered Windows workspace with built-in ad blocking.</desc>
+  <rect width="1280" height="440" fill="#F0EBDE"/>
+  <g stroke="#1F2BE0" opacity=".12"><path d="M40 0V440M1240 0V440M0 40H1280M0 400H1280M860 40V400"/></g>
+  <g fill="#1F2BE0">
+    <text x="72" y="88" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">THE RUST-POWERED WEB WORKSPACE</text>
+    <text x="65" y="214" font-family="Georgia,serif" font-size="112" letter-spacing="-5">Bobola</text>
+    <text x="72" y="276" font-family="Georgia,serif" font-size="38">One shell. Many worlds.</text>
+    <text x="72" y="337" font-family="Segoe UI,Arial,sans-serif" font-size="18">Separate accounts. Built-in ad blocking. Thoughtful memory controls.</text>
+    <text x="72" y="378" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">WINDOWS X64 / RUST / TAURI / WEBVIEW2 / OPEN SOURCE</text>
+  </g>
+  <g stroke="#1F2BE0" fill="none" stroke-width="2">
+    <rect x="914" y="109" width="258" height="224"/><path d="M914 149H1172M961 149V333"/>
+    <rect x="982" y="171" width="169" height="61"/><rect x="982" y="251" width="75" height="61"/><rect x="1076" y="251" width="75" height="61"/>
+  </g>
+  <g fill="#1F2BE0"><rect x="930" y="171" width="15" height="15"/><rect x="930" y="203" width="15" height="15" opacity=".6"/><rect x="930" y="235" width="15" height="15" opacity=".3"/><circle cx="933" cy="129" r="4"/><circle cx="948" cy="129" r="4"/></g>
+  <text x="1043" y="369" fill="#1F2BE0" font-family="Segoe UI,Arial,sans-serif" font-size="12" text-anchor="middle" letter-spacing="2">ONE CALM PLACE FOR YOUR WEB</text>
+</svg>

@@ -1,0 +1,42 @@
+name: Windows CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Build, core tests, and Rust checks
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      CARGO_TARGET_DIR: ${{ github.workspace }}/target
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Set up Rust
+        run: rustup toolchain install stable --profile minimal --component rustfmt --component clippy
+      - name: Select stable Rust
+        run: rustup default stable
+      - name: Install dependencies
+        run: npm ci
+      - name: Check and build interface
+        run: npm run build
+      - name: Test Rust core
+        run: npm test
+      - name: Check Rust formatting
+        run: cargo fmt --all -- --check
+      - name: Check native Rust code
+        run: cargo clippy --workspace --all-targets --all-features -- -D warnings

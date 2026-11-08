@@ -1,0 +1,27 @@
+node_modules/
+dist/
+target/
+test-results/
+playwright-report/
+.local/
+*.log
+output/
+.playwright-cli/
+
+# Local orchestration notes and worker snapshots are not part of the public source release.
+.omp/
+docs/SONNET_*.md
+docs/IMPLEMENTATION_CHECKPOINT.md
+docs/POPUP_VERIFICATION_FIX.md
+docs/PRISM_GLASS_DELIVERY.md
+docs/BOBOLA_CONFLUENCE_DELIVERY.md
+scripts/sonnet-*.mjs
+scripts/start-sonnet-*.ps1
+scripts/omp-*.mjs
+scripts/probe-ferdium-profile.mjs
+scripts/render-confluence.mjs
+public/app-icon-confluence.svg
+public/app-icon-eclipse.svg
+public/app-icon-prism.svg
+public/logo-confluence*.svg
+public/logo-confluence-preview.html

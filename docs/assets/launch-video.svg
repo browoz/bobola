@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Watch the Bobola launch film</title>
+  <desc id="desc">Cobalt video cover with a play button. Click to watch the thirty-second launch film on YouTube.</desc>
+  <rect width="1280" height="440" fill="#1F2BE0"/>
+  <g stroke="#F0EBDE" opacity=".2"><path d="M40 0V440M1240 0V440M0 40H1280M0 400H1280M880 40V400"/></g>
+  <g fill="#F0EBDE">
+    <text x="76" y="100" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">MEET BOBOLA / THE LAUNCH FILM</text>
+    <text x="72" y="218" font-family="Georgia,serif" font-size="76">Your web,</text>
+    <text x="72" y="301" font-family="Georgia,serif" font-size="76">without the clutter.</text>
+    <text x="76" y="366" font-family="Segoe UI,Arial,sans-serif" font-size="17">WATCH ON YOUTUBE · 30 SECONDS</text>
+    <circle cx="1060" cy="220" r="78" fill="none" stroke="#F0EBDE" stroke-width="2"/>
+    <path d="M1041 185L1093 220L1041 255Z"/>
+  </g>
+</svg>
