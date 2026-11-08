@@ -7,6 +7,9 @@ playwright-report/
 *.log
 output/
 src-tauri/resources/ytt.exe
+src-tauri/resources/yututui-windows-x64-*.zip
+src-tauri/resources/yututray.exe
+src-tauri/resources/yututui.ico
 .playwright-cli/
 
 # Local orchestration notes and worker snapshots are not part of the public source release.

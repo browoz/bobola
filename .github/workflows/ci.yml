@@ -32,6 +32,8 @@ jobs:
         run: rustup default stable
       - name: Install dependencies
         run: npm ci
+      - name: Fetch bundled YuTuTui controller
+        run: npm run prepare:yututui
       - name: Check and build interface
         run: npm run build
       - name: Test Rust core
