@@ -53,17 +53,20 @@ struct MusicStatus {
 }
 
 fn music_binary(app: &tauri::AppHandle) -> std::path::PathBuf {
-    let resource = app
-        .path()
-        .resource_dir()
-        .ok()
-        .map(|dir| dir.join("ytt.exe"));
-    let adjacent = std::env::current_exe()
-        .ok()
-        .and_then(|exe| exe.parent().map(|dir| dir.join("ytt.exe")));
-    resource
-        .filter(|path| path.is_file())
-        .or_else(|| adjacent.filter(|path| path.is_file()))
+    let mut candidates = Vec::new();
+    if let Ok(dir) = app.path().resource_dir() {
+        candidates.push(dir.join("ytt.exe"));
+        candidates.push(dir.join("resources").join("ytt.exe"));
+    }
+    if let Ok(exe) = std::env::current_exe()
+        && let Some(dir) = exe.parent()
+    {
+        candidates.push(dir.join("ytt.exe"));
+        candidates.push(dir.join("resources").join("ytt.exe"));
+    }
+    candidates
+        .into_iter()
+        .find(|path| path.is_file())
         .unwrap_or_else(|| std::path::PathBuf::from("ytt.exe"))
 }
 
