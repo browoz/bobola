@@ -12,6 +12,8 @@ The generated `docs/DEPENDENCY_NOTICES.txt` lists the resolved Windows Rust and 
 | Ferdium recipe metadata | Names, URLs and configuration flags from pinned recipe manifests | Individual recipe licenses recorded in `src/lib/catalog.json`; source revision in `CATALOG_PROVENANCE.json` |
 | Ferdium service artwork | 30 locally bundled SVG logos | Pinned sources and hashes in `SERVICE_ARTWORK_PROVENANCE.json`; MIT text and attribution in `public/service-icons/`; brand trademarks remain with their owners |
 | EasyList and EasyPrivacy | Optional lists downloaded by the user at runtime | Retain list metadata and review the source's applicable GPL/Creative Commons notices, https://easylist.to/ |
+| YuTuTui companion | Optional Windows `ytt.exe` music controller | MIT, https://github.com/Ochichan/Yututui; release license text is shipped as `src-tauri/resources/YUTUTUI_LICENSE.md` |
+| QuickDraw | Local infinite canvas engine (`@quickdrawjs/core`) | MIT, https://github.com/quickdrawjs/quickdraw |
 
 Keep MPL-covered library source available under its applicable terms when distributing a binary. This application does not relabel third-party components as Apache-only code. Catalog metadata import is distinct from porting or redistributing executable recipe scripts. The small bundled starter filter list is original project code.
 

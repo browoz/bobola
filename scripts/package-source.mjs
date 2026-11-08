@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { copyFile, lstat, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { copyFile, lstat, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const { version } = JSON.parse(await readFile('package.json', 'utf8'));
@@ -31,8 +31,8 @@ const rootFiles = new Set([
 ]);
 const docs = new Set([
   'DEPENDENCY_NOTICES.txt',
-  'RELEASE_NOTES_1.0.1.md',
-  'UI_REVIEW_1.0.1.md',
+  'RELEASE_NOTES_1.1.0.md',
+  'UI_REVIEW_1.1.0.md',
   'BENCHMARK_ANALYSIS.md',
   'PARITY.md',
   'IMPLEMENTATION.md',
@@ -48,6 +48,7 @@ const files = [...new Set(candidates)]
       rootFiles.has(file) ||
       /^\.github\//.test(file) ||
       /^docs\/assets\//.test(file) ||
+      file === 'src-tauri/resources/YUTUTUI_LICENSE.md' ||
       /^(src|crates)\//.test(file) ||
       /^src-tauri\/(src\/|icons\/|capabilities\/|Cargo\.toml$|build\.rs$|tauri\.conf\.json$)/.test(
         file
@@ -84,8 +85,10 @@ for (const file of files) {
     sha256: createHash('sha256').update(bytes).digest('hex'),
   });
 }
-assert.ok(checked.includes('docs/UI_REVIEW_1.0.1.md'), 'The release review must be included.');
+assert.ok(checked.includes('docs/UI_REVIEW_1.1.0.md'), 'The release review must be included.');
 // An existing output could contain stale files; require a fresh destination.
+await rm(destination, { recursive: true, force: true });
+await rm(archive, { force: true });
 await mkdir(path.dirname(destination), { recursive: true });
 await mkdir(destination);
 for (const file of checked) {

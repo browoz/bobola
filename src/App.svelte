@@ -23,6 +23,8 @@
   import NavPanel from './lib/components/NavPanel.svelte';
   import ServiceIcon from './lib/components/ServiceIcon.svelte';
   import GlassDock from './lib/components/GlassDock.svelte';
+  import MusicPanel from './lib/components/MusicPanel.svelte';
+  import QuickDrawPanel from './lib/components/QuickDrawPanel.svelte';
   import OrbLauncher from './lib/components/OrbLauncher.svelte';
   import { subscribeWorkspaceEvents } from './lib/events';
   import { normalizeInterface, saveInterface } from './lib/interface-prefs';
@@ -60,6 +62,7 @@
     search = $state(''),
     quickSearch = $state('');
   let modal = $state<'add' | 'settings' | 'search' | 'workspace' | 'manage' | null>(null);
+  let companionPanel = $state<'music' | 'canvas' | null>(null);
   let settingsPage = $state<
     'home' | 'appearance' | 'protection' | 'notifications' | 'memory' | 'backup'
   >('home');
@@ -423,6 +426,7 @@
     if (wasOpen) void restoreFocus(null);
   }
   function activate(id: string) {
+    companionPanel = null;
     nav.dismiss();
     const service = data.services.find((service) => service.id === id);
     if (workspace !== 'all' && service?.workspaceId !== workspace) workspace = 'all';
@@ -436,6 +440,12 @@
     // The newly chosen account always takes keyboard focus, even if it was already visible.
     if (modal === 'search') closeAndFocus(id);
     else void focusAfterLayout(id);
+  }
+  function openCompanionPanel(panel: 'music' | 'canvas') {
+    nav.dismiss();
+    companionPanel = panel;
+    selected = [];
+    void syncLayout();
   }
   function selectWorkspace(id: string) {
     workspace = id;
@@ -681,10 +691,10 @@
       onactivate={activate}
       onreload={(service) => act(() => command('reload_service', { id: service.id }))}
       onmanage={manageService}
-      onclose={(service) => {
-        selected = selected.filter((id) => id !== service.id);
-      }}
-    />
+       onclose={(service) => {
+         selected = selected.filter((id) => id !== service.id);
+       }}
+     />
   {:else if iface.navMode === 'orb-launcher'}
     <OrbLauncher
       onlayout={syncLayout}
@@ -733,10 +743,12 @@
       onactivate={activate}
       onreload={(service) => act(() => command('reload_service', { id: service.id }))}
       onmanage={manageService}
-      onclose={(service) => {
-        selected = selected.filter((id) => id !== service.id);
-      }}
-    />
+       onclose={(service) => {
+         selected = selected.filter((id) => id !== service.id);
+       }}
+       onmusic={() => openCompanionPanel('music')}
+       ondraw={() => openCompanionPanel('canvas')}
+     />
   {/if}
 
   <main id="main" bind:this={mainEl}>
@@ -781,6 +793,10 @@
           ><RefreshCw size={15} />Try again</button
         >
       </div>
+    {:else if companionPanel === 'music'}
+      <MusicPanel theme={resolvedTheme} />
+    {:else if companionPanel === 'canvas'}
+      <QuickDrawPanel theme={resolvedTheme} />
     {:else if !chosen.length}
       <EmptyState
         {services}

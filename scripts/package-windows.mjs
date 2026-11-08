@@ -71,7 +71,7 @@ const manifest = {
   validation: {
     nativeSmoke: { status: smoke.status, checks: smoke.checks },
     review:
-      'See docs/UI_REVIEW_1.0.1.md in the source package for validation evidence and limitations.',
+      `See docs/UI_REVIEW_${version}.md in the source package for validation evidence and limitations.`,
   },
 };
 await fs.writeFile(

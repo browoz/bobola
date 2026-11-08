@@ -10,6 +10,8 @@
   import Timer from '@lucide/svelte/icons/timer';
   import X from '@lucide/svelte/icons/x';
   import Zap from '@lucide/svelte/icons/zap';
+  import Music2 from '@lucide/svelte/icons/music-2';
+  import Pencil from '@lucide/svelte/icons/pencil';
   import Concentration from './Concentration.svelte';
   import ServiceIcon from './ServiceIcon.svelte';
   import type { createNav } from '../nav.svelte';
@@ -37,6 +39,8 @@
     onreload,
     onmanage,
     onclose,
+    onmusic,
+    ondraw,
   }: {
     nav: ReturnType<typeof createNav>;
     expanded: boolean;
@@ -60,6 +64,8 @@
     onreload: (service: Service) => void;
     onmanage: (service: Service) => void;
     onclose: (service: Service) => void;
+    onmusic: () => void;
+    ondraw: () => void;
   } = $props();
 
   let panel = $state<HTMLElement>();
@@ -148,6 +154,16 @@
     {:else}
       <div class="nav-sep" role="presentation"></div>
     {/if}
+    <div class="nav-tools" aria-label="Bobola companions">
+      <button type="button" class="nav-item companion-tool" title="Open Music" aria-label="Open Music" onclick={onmusic}>
+        <span class="nav-icon"><Music2 size={17} /></span>
+        {#if expanded}<span class="nav-text">Music</span><small>YuTuTui</small>{/if}
+      </button>
+      <button type="button" class="nav-item companion-tool" title="Open QuickDraw canvas" aria-label="Open QuickDraw canvas" onclick={ondraw}>
+        <span class="nav-icon"><Pencil size={17} /></span>
+        {#if expanded}<span class="nav-text">Canvas</span><small>QuickDraw</small>{/if}
+      </button>
+    </div>
     {#each services as service (service.id)}
       {@const isSelected = selected.includes(service.id)}
       <div class="service-item" class:selected={isSelected}>

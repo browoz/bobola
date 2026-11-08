@@ -1,6 +1,6 @@
 {
   "name": "service-workspace",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "license": "Apache-2.0",
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@lucide/svelte": "^1.67",
+    "@quickdrawjs/core": "0.3.0",
     "@tauri-apps/api": "^2",
     "svelte": "^5"
   },

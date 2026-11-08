@@ -114,3 +114,17 @@ export const bootstrap = () => command<Bootstrap>('bootstrap');
 /** Native keyboard focus. `null` restores the backend's last focused visible service. */
 export const focusService = (serviceId: string | null) =>
   command('workspace_command', { command: { type: 'focusService', serviceId } });
+
+export type MusicStatus = {
+  available: boolean;
+  running: boolean;
+  title?: string | null;
+  artist?: string | null;
+  paused?: boolean;
+  volume?: number;
+  error?: string | null;
+};
+
+export const musicStatus = () => command<MusicStatus>('music_status');
+export const musicCommand = (action: 'play' | 'pause' | 'next' | 'previous' | 'volumeUp' | 'volumeDown', query?: string) =>
+  command<MusicStatus>('music_command', { action, query });

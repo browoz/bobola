@@ -6,6 +6,7 @@ playwright-report/
 .local/
 *.log
 output/
+src-tauri/resources/ytt.exe
 .playwright-cli/
 
 # Local orchestration notes and worker snapshots are not part of the public source release.
