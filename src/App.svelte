@@ -689,8 +689,10 @@
       onsearch={() => void open('search')}
       onadd={() => void open('add')}
       onactivate={activate}
-      onreload={(service) => act(() => command('reload_service', { id: service.id }))}
-      onmanage={manageService}
+       onreload={(service) => act(() => command('reload_service', { id: service.id }))}
+       onmusic={() => openCompanionPanel('music')}
+       ondraw={() => openCompanionPanel('canvas')}
+       onmanage={manageService}
        onclose={(service) => {
          selected = selected.filter((id) => id !== service.id);
        }}

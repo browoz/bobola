@@ -8,6 +8,8 @@
   import RefreshCw from '@lucide/svelte/icons/refresh-cw';
   import X from '@lucide/svelte/icons/x';
   import Settings2 from '@lucide/svelte/icons/settings-2';
+  import Music2 from '@lucide/svelte/icons/music-2';
+  import Pencil from '@lucide/svelte/icons/pencil';
 
   let {
     services,
@@ -24,6 +26,8 @@
     onmanage,
     onclose,
     onsettings,
+    onmusic,
+    ondraw,
     onlayout,
   }: {
     services: Service[];
@@ -40,6 +44,8 @@
     onmanage: (service: Service) => void;
     onclose: (service: Service) => void;
     onsettings: () => void;
+    onmusic: () => void;
+    ondraw: () => void;
     onlayout: () => unknown;
   } = $props();
 
@@ -86,6 +92,26 @@
       onclick={onsearch}
     >
       <Search size={16} />
+    </button>
+    <div class="dock-sep"></div>
+
+    <button
+      type="button"
+      class="dock-item companion-trigger"
+      title="Open Music"
+      aria-label="Open Music"
+      onclick={onmusic}
+    >
+      <Music2 size={16} />
+    </button>
+    <button
+      type="button"
+      class="dock-item companion-trigger"
+      title="Open Canvas"
+      aria-label="Open Canvas"
+      onclick={ondraw}
+    >
+      <Pencil size={16} />
     </button>
     <div class="dock-sep"></div>
 
@@ -294,6 +320,9 @@
     transform: scale(1.08);
     background: rgba(255, 255, 255, 0.85);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  .companion-trigger {
+    color: var(--accent, #1f2be0);
   }
   :global([data-theme='dark']) .dock-item:hover {
     background: rgba(70, 70, 90, 0.85);
