@@ -8,7 +8,6 @@
   import RefreshCw from '@lucide/svelte/icons/refresh-cw';
   import X from '@lucide/svelte/icons/x';
   import Settings2 from '@lucide/svelte/icons/settings-2';
-  import Music2 from '@lucide/svelte/icons/music-2';
   import Pencil from '@lucide/svelte/icons/pencil';
 
   let {
@@ -26,7 +25,6 @@
     onmanage,
     onclose,
     onsettings,
-    onmusic,
     ondraw,
     onlayout,
   }: {
@@ -44,7 +42,6 @@
     onmanage: (service: Service) => void;
     onclose: (service: Service) => void;
     onsettings: () => void;
-    onmusic: () => void;
     ondraw: () => void;
     onlayout: () => unknown;
   } = $props();
@@ -95,15 +92,6 @@
     </button>
     <div class="dock-sep"></div>
 
-    <button
-      type="button"
-      class="dock-item companion-trigger"
-      title="Open Music"
-      aria-label="Open Music"
-      onclick={onmusic}
-    >
-      <Music2 size={16} />
-    </button>
     <button
       type="button"
       class="dock-item companion-trigger"

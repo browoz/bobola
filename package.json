@@ -1,6 +1,6 @@
 {
   "name": "service-workspace",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": true,
   "type": "module",
   "license": "Apache-2.0",
@@ -18,7 +18,6 @@
     "benchmark:protection": "node scripts/rust.mjs run --release -p workspace-core --example protection_benchmark",
     "benchmark:resources": "node scripts/resource-benchmark.mjs",
     "package:windows": "npm run build && npm test && node scripts/rust.mjs build -p service-workspace && npm run test:native && npx tauri build --bundles nsis && node scripts/package-windows.mjs",
-    "prepare:yututui": "node scripts/fetch-yututui.mjs",
     "catalog": "node scripts/import-catalog.mjs"
   },
   "dependencies": {

@@ -14,7 +14,7 @@ Your web services. Separate accounts. One calm place.
 [![CI](https://github.com/browoz/bobola/actions/workflows/ci.yml/badge.svg)](https://github.com/browoz/bobola/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-Apache--2.0-1F2BE0?style=flat-square)](LICENSE)
 
-**[Download for Windows](https://github.com/browoz/bobola/releases/latest/download/Bobola_1.1.1_x64-setup.exe)** · **[Watch the launch film](https://youtu.be/QMSfMWynLF4)** · **[Get started](#get-started)** · **[Build from source](#build-from-source)**
+**[Download for Windows](https://github.com/browoz/bobola/releases/latest/download/Bobola_1.1.2_x64-setup.exe)** · **[Watch the launch film](https://youtu.be/QMSfMWynLF4)** · **[Get started](#get-started)** · **[Build from source](#build-from-source)**
 
 </div>
 
@@ -28,7 +28,7 @@ Built with **Rust, Tauri 2, Microsoft WebView2, and Svelte 5**, Bobola pairs a c
 
 | A compact starting point | Control as your workspace grows |
 | :--- | :--- |
-| **12.31 MiB Windows installer** for v1.1.1 | **Idle unloading** releases eligible inactive service views |
+| **4.89 MiB Windows installer** for v1.1.2 | **Idle unloading** releases eligible inactive service views |
 | **System WebView2 runtime** for native web content | **Configurable live-view budget** limits active views where possible |
 | **Shared service environment** with separate account profiles | **Keep-live controls** for accounts you want running |
 | **Rust core** for storage, filtering, and lifecycle decisions | **Resource visibility** includes owned browser processes |
@@ -52,7 +52,7 @@ The installer size excludes the Microsoft WebView2 runtime and your service data
 | **Two-column views** | Keep two services alongside each other in the same workspace. |
 | **Memory controls** | Configure idle unloading and a soft live-view budget; mark important accounts as keep-live. |
 | **Local configuration** | SQLite storage with validated configuration backup and restore. Website sessions stay in their browser profiles. |
-| **Music companion** | An optional terminal-inspired light/dark panel powered by YuTuTui, with YouTube Music search and local playback controls. |
+| **YouTube Music** | Add `music.youtube.com` from the service catalog and play music in its website view. |
 | **Canvas companion** | An optional QuickDraw infinite canvas for sketches, diagrams, plans, and notes, with local persistence. |
 
 ### A quieter web, built in
@@ -82,16 +82,16 @@ The engine handles native network filtering and main-document cosmetic filtering
 
 ## Get started
 
-1. **[Download Bobola for Windows x64](https://github.com/browoz/bobola/releases/latest).** Run `Bobola_1.1.1_x64-setup.exe` to install for your Windows user.
+1. **[Download Bobola for Windows x64](https://github.com/browoz/bobola/releases/latest).** Run `Bobola_1.1.2_x64-setup.exe` to install for your Windows user.
 2. **Create a workspace and add your services.** Sign in within each service's own browser profile.
 3. **Set your protection preferences.** Enable optional filtering and download EasyList / EasyPrivacy for broader coverage.
 4. **Choose what stays live.** Keep messaging accounts active and let eligible unused services sleep.
 
-**Requirements:** Windows x64 with Microsoft Edge WebView2. If WebView2 is missing, setup uses Microsoft's download bootstrapper and needs internet access. The v1.1.1 installer is unsigned, so Windows may show an unknown-publisher or SmartScreen notice. Release checksums are supplied alongside the download.
+**Requirements:** Windows x64 with Microsoft Edge WebView2. If WebView2 is missing, setup uses Microsoft's download bootstrapper and needs internet access. The v1.1.2 installer is unsigned, so Windows may show an unknown-publisher or SmartScreen notice. Release checksums are supplied alongside the download.
 
 Sleeping services may not deliver real-time notifications. Keep-live defaults and conservative media/form guards help avoid interruption, but provider-specific sign-in, calls, screen sharing, and notifications still need individual compatibility checks.
 
-The **Music** and **Canvas** companions are separate from account profiles. Music controls YuTuTui through its local per-user interface; Canvas stores its board in Bobola's local shell storage. YuTuTui playback requires `mpv`, `yt-dlp`, and `ffmpeg` as described by the upstream project.
+For music, choose **Add service → YouTube Music** and use the website player. Bobola does not require a separate native music controller or playback tools. The **Canvas** companion stores its board in Bobola's local shell storage.
 
 ## Under the hood
 
@@ -144,7 +144,7 @@ The browser preview uses separate local data and does not emulate native service
 
 ## Status and roadmap
 
-**v1.1.1** includes the service-management workspace, compact light/dark surfaces, account-isolation checks, native filtering, and optional Music and Canvas companions. It also starts YuTuTui reliably from the Music panel and provides clear retry/loading states. The release review records **38 core tests and 16 native smoke checks**, alongside UI and popup checks. [Release notes →](docs/RELEASE_NOTES_1.1.1.md)
+**v1.1.2** removes the native Music companion and its bundled player. YouTube Music is available through the website service catalog, alongside the existing workspace and Canvas features. [Release notes →](docs/RELEASE_NOTES_1.1.2.md)
 
 Next areas include provider-specific authentication and call compatibility, native notifications and unread adapters, broader filtering coverage, and migration. The catalog contains metadata from **441 pinned recipe entries**; this is discovery coverage, not a claim of 441 fully supported integrations. See [implementation scope](docs/IMPLEMENTATION.md) and [parity tracking](docs/PARITY.md).
 
@@ -158,4 +158,4 @@ If Bobola fits your workflow, a star helps other people find it.
 
 Bobola application code is licensed under **[Apache-2.0](LICENSE)**. Dependencies retain their licenses, including MPL-2.0 for Brave's unmodified Rust blocking engine. Service names and logos belong to their respective owners; inclusion does not imply endorsement.
 
-Thanks to the Rust, Tauri, Svelte, WebView2, Brave adblock-rust, EasyList, EasyPrivacy, Ferdium, YuTuTui, and QuickDraw communities. See [third-party notices](THIRD_PARTY_NOTICES.md), [dependency notices](docs/DEPENDENCY_NOTICES.txt), [catalog provenance](CATALOG_PROVENANCE.json), and [artwork provenance](SERVICE_ARTWORK_PROVENANCE.json).
+Thanks to the Rust, Tauri, Svelte, WebView2, Brave adblock-rust, EasyList, EasyPrivacy, Ferdium, and QuickDraw communities. See [third-party notices](THIRD_PARTY_NOTICES.md), [dependency notices](docs/DEPENDENCY_NOTICES.txt), [catalog provenance](CATALOG_PROVENANCE.json), and [artwork provenance](SERVICE_ARTWORK_PROVENANCE.json).

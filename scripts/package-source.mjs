@@ -33,6 +33,8 @@ const docs = new Set([
   'DEPENDENCY_NOTICES.txt',
   'RELEASE_NOTES_1.1.0.md',
   'UI_REVIEW_1.1.0.md',
+  `RELEASE_NOTES_${version}.md`,
+  `UI_REVIEW_${version}.md`,
   'BENCHMARK_ANALYSIS.md',
   'PARITY.md',
   'IMPLEMENTATION.md',
@@ -48,9 +50,8 @@ const files = [...new Set(candidates)]
       rootFiles.has(file) ||
       /^\.github\//.test(file) ||
       /^docs\/assets\//.test(file) ||
-      file === 'src-tauri/resources/YUTUTUI_LICENSE.md' ||
       /^(src|crates)\//.test(file) ||
-      /^src-tauri\/(src\/|icons\/|capabilities\/|Cargo\.toml$|build\.rs$|tauri\.conf\.json$)/.test(
+      /^src-tauri\/(src\/|icons\/|capabilities\/|Cargo\.toml$|build\.rs$|tauri\.conf\.json$|nsis-hooks\.nsh$)/.test(
         file
       ) ||
       (/^scripts\/[a-z0-9-]+\.(mjs|ps1)$/.test(file) &&
@@ -85,7 +86,7 @@ for (const file of files) {
     sha256: createHash('sha256').update(bytes).digest('hex'),
   });
 }
-assert.ok(checked.includes('docs/UI_REVIEW_1.1.0.md'), 'The release review must be included.');
+assert.ok(checked.includes(`docs/UI_REVIEW_${version}.md`), 'The release review must be included.');
 // An existing output could contain stale files; require a fresh destination.
 await rm(destination, { recursive: true, force: true });
 await rm(archive, { force: true });

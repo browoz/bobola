@@ -12,7 +12,6 @@ mod smoke;
 use serde::{Deserialize, Serialize};
 use std::{
     collections::BTreeMap,
-    process::Stdio,
     sync::{Arc, Mutex},
     time::{SystemTime, UNIX_EPOCH},
 };
@@ -38,176 +37,6 @@ pub struct AppState {
     /// Activity of open popups by account id, then popup id. Separate from `runtime`
     /// so popup page state never overwrites the main view's dirty/media flags.
     pub popups: Arc<Mutex<BTreeMap<String, BTreeMap<u64, PopupState>>>>,
-}
-
-#[derive(Clone, Debug, Serialize)]
-#[serde(rename_all = "camelCase")]
-struct MusicStatus {
-    available: bool,
-    running: bool,
-    title: Option<String>,
-    artist: Option<String>,
-    paused: Option<bool>,
-    volume: Option<i64>,
-    error: Option<String>,
-}
-
-fn music_binary(app: &tauri::AppHandle) -> std::path::PathBuf {
-    let mut candidates = Vec::new();
-    if let Ok(dir) = app.path().resource_dir() {
-        candidates.push(dir.join("ytt.exe"));
-        candidates.push(dir.join("resources").join("ytt.exe"));
-    }
-    if let Ok(exe) = std::env::current_exe()
-        && let Some(dir) = exe.parent()
-    {
-        candidates.push(dir.join("ytt.exe"));
-        candidates.push(dir.join("resources").join("ytt.exe"));
-    }
-    candidates
-        .into_iter()
-        .find(|path| path.is_file())
-        .unwrap_or_else(|| std::path::PathBuf::from("ytt.exe"))
-}
-
-async fn run_music(app: &tauri::AppHandle, arguments: &[String]) -> Result<String> {
-    let binary = music_binary(app);
-    let mut process = tokio::process::Command::new(&binary);
-    process
-        .args(arguments)
-        .stdin(Stdio::null())
-        .stdout(Stdio::piped())
-        .stderr(Stdio::piped());
-    #[cfg(windows)]
-    process.creation_flags(0x08000000);
-    let output = process
-        .output()
-        .await
-        .map_err(|error| format!("YuTuTui is unavailable: {error}"))?;
-    if !output.status.success() {
-        let message = String::from_utf8_lossy(&output.stderr).trim().to_string();
-        return Err(if message.is_empty() {
-            "YuTuTui could not complete that action.".into()
-        } else {
-            message
-        });
-    }
-    Ok(String::from_utf8_lossy(&output.stdout).trim().to_string())
-}
-
-async fn ensure_music_daemon(app: &tauri::AppHandle) -> Result<String> {
-    let status_args = vec!["-r".to_string(), "status".into(), "--json".into()];
-    if let Ok(output) = run_music(app, &status_args).await {
-        return Ok(output);
-    }
-
-    let binary = music_binary(app);
-    let mut process = tokio::process::Command::new(&binary);
-    process
-        .args(["daemon", "start"])
-        .stdin(Stdio::null())
-        .stdout(Stdio::null())
-        .stderr(Stdio::null());
-    #[cfg(windows)]
-    process.creation_flags(0x08000000);
-    process
-        .spawn()
-        .map_err(|error| format!("YuTuTui could not start: {error}"))?;
-
-    let mut last_error = "YuTuTui did not become ready.".to_string();
-    for _ in 0..20 {
-        tokio::time::sleep(std::time::Duration::from_millis(150)).await;
-        match run_music(app, &status_args).await {
-            Ok(output) => return Ok(output),
-            Err(error) => last_error = error,
-        }
-    }
-    Err(last_error)
-}
-
-fn parse_music_status(text: &str) -> MusicStatus {
-    let response: serde_json::Value = serde_json::from_str(text).unwrap_or_default();
-    let status = response.get("status").unwrap_or(&response);
-    MusicStatus {
-        available: true,
-        running: response
-            .get("ok")
-            .and_then(serde_json::Value::as_bool)
-            .unwrap_or(true),
-        title: status
-            .get("title")
-            .and_then(serde_json::Value::as_str)
-            .map(str::to_owned),
-        artist: status
-            .get("artist")
-            .and_then(serde_json::Value::as_str)
-            .map(str::to_owned),
-        paused: status.get("paused").and_then(serde_json::Value::as_bool),
-        volume: status.get("volume").and_then(serde_json::Value::as_i64),
-        error: response
-            .get("message")
-            .and_then(serde_json::Value::as_str)
-            .map(str::to_owned),
-    }
-}
-
-#[tauri::command]
-async fn music_status(window: tauri::WebviewWindow) -> Result<MusicStatus> {
-    shell(&window)?;
-    let binary = music_binary(window.app_handle());
-    if !binary.is_file() && binary == std::path::Path::new("ytt.exe") {
-        return Ok(MusicStatus {
-            available: false,
-            running: false,
-            title: None,
-            artist: None,
-            paused: None,
-            volume: None,
-            error: None,
-        });
-    }
-    match ensure_music_daemon(window.app_handle()).await {
-        Ok(output) => Ok(parse_music_status(&output)),
-        Err(error) => Ok(MusicStatus {
-            available: true,
-            running: false,
-            title: None,
-            artist: None,
-            paused: None,
-            volume: None,
-            error: Some(error),
-        }),
-    }
-}
-
-#[tauri::command]
-async fn music_command(
-    window: tauri::WebviewWindow,
-    action: String,
-    query: Option<String>,
-) -> Result<MusicStatus> {
-    shell(&window)?;
-    let mut arguments = vec!["-r".to_string()];
-    match action.as_str() {
-        "play" => {
-            let query = query.unwrap_or_default();
-            if query.trim().is_empty() {
-                arguments.push("pp".into());
-            } else {
-                arguments.extend(["play".into(), query]);
-            }
-        }
-        "pause" => arguments.push("pp".into()),
-        "next" => arguments.push("next".into()),
-        "previous" => arguments.push("prev".into()),
-        "volumeUp" => arguments.push("up".into()),
-        "volumeDown" => arguments.push("down".into()),
-        _ => return Err("Unknown music action.".into()),
-    }
-    arguments.push("--json".into());
-    let _ = ensure_music_daemon(window.app_handle()).await?;
-    let output = run_music(window.app_handle(), &arguments).await?;
-    Ok(parse_music_status(&output))
 }
 
 #[derive(Serialize)]
@@ -776,8 +605,6 @@ pub fn run() {
             add_workspace,
             save_preferences,
             save_interface_preferences,
-            music_status,
-            music_command,
             set_layout,
             set_surface_layout,
             workspace_command,

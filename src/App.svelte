@@ -23,7 +23,6 @@
   import NavPanel from './lib/components/NavPanel.svelte';
   import ServiceIcon from './lib/components/ServiceIcon.svelte';
   import GlassDock from './lib/components/GlassDock.svelte';
-  import MusicPanel from './lib/components/MusicPanel.svelte';
   import QuickDrawPanel from './lib/components/QuickDrawPanel.svelte';
   import OrbLauncher from './lib/components/OrbLauncher.svelte';
   import { subscribeWorkspaceEvents } from './lib/events';
@@ -62,7 +61,7 @@
     search = $state(''),
     quickSearch = $state('');
   let modal = $state<'add' | 'settings' | 'search' | 'workspace' | 'manage' | null>(null);
-  let companionPanel = $state<'music' | 'canvas' | null>(null);
+  let companionPanel = $state<'canvas' | null>(null);
   let settingsPage = $state<
     'home' | 'appearance' | 'protection' | 'notifications' | 'memory' | 'backup'
   >('home');
@@ -441,7 +440,7 @@
     if (modal === 'search') closeAndFocus(id);
     else void focusAfterLayout(id);
   }
-  function openCompanionPanel(panel: 'music' | 'canvas') {
+  function openCompanionPanel(panel: 'canvas') {
     nav.dismiss();
     companionPanel = panel;
     selected = [];
@@ -474,6 +473,7 @@
         },
       });
       workspace = 'all';
+      companionPanel = null;
       selected = [service.id];
       serviceName = '';
       serviceUrl = '';
@@ -690,7 +690,6 @@
       onadd={() => void open('add')}
       onactivate={activate}
        onreload={(service) => act(() => command('reload_service', { id: service.id }))}
-       onmusic={() => openCompanionPanel('music')}
        ondraw={() => openCompanionPanel('canvas')}
        onmanage={manageService}
        onclose={(service) => {
@@ -748,7 +747,6 @@
        onclose={(service) => {
          selected = selected.filter((id) => id !== service.id);
        }}
-       onmusic={() => openCompanionPanel('music')}
        ondraw={() => openCompanionPanel('canvas')}
      />
   {/if}
@@ -795,8 +793,6 @@
           ><RefreshCw size={15} />Try again</button
         >
       </div>
-    {:else if companionPanel === 'music'}
-      <MusicPanel theme={resolvedTheme} />
     {:else if companionPanel === 'canvas'}
       <QuickDrawPanel theme={resolvedTheme} />
     {:else if !chosen.length}
