@@ -14,7 +14,7 @@ Your web services. Separate accounts. One calm place.
 [![CI](https://github.com/browoz/bobola/actions/workflows/ci.yml/badge.svg)](https://github.com/browoz/bobola/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-Apache--2.0-1F2BE0?style=flat-square)](LICENSE)
 
-**[Download for Windows](https://github.com/browoz/bobola/releases/latest/download/Bobola_1.1.0_x64-setup.exe)** · **[Watch the launch film](https://youtu.be/QMSfMWynLF4)** · **[Get started](#get-started)** · **[Build from source](#build-from-source)**
+**[Download for Windows](https://github.com/browoz/bobola/releases/latest/download/Bobola_1.1.1_x64-setup.exe)** · **[Watch the launch film](https://youtu.be/QMSfMWynLF4)** · **[Get started](#get-started)** · **[Build from source](#build-from-source)**
 
 </div>
 
@@ -28,7 +28,7 @@ Built with **Rust, Tauri 2, Microsoft WebView2, and Svelte 5**, Bobola pairs a c
 
 | A compact starting point | Control as your workspace grows |
 | :--- | :--- |
-| **12.32 MiB Windows installer** for v1.1.0 | **Idle unloading** releases eligible inactive service views |
+| **12.31 MiB Windows installer** for v1.1.1 | **Idle unloading** releases eligible inactive service views |
 | **System WebView2 runtime** for native web content | **Configurable live-view budget** limits active views where possible |
 | **Shared service environment** with separate account profiles | **Keep-live controls** for accounts you want running |
 | **Rust core** for storage, filtering, and lifecycle decisions | **Resource visibility** includes owned browser processes |
@@ -82,12 +82,12 @@ The engine handles native network filtering and main-document cosmetic filtering
 
 ## Get started
 
-1. **[Download Bobola for Windows x64](https://github.com/browoz/bobola/releases/latest).** Run `Bobola_1.1.0_x64-setup.exe` to install for your Windows user.
+1. **[Download Bobola for Windows x64](https://github.com/browoz/bobola/releases/latest).** Run `Bobola_1.1.1_x64-setup.exe` to install for your Windows user.
 2. **Create a workspace and add your services.** Sign in within each service's own browser profile.
 3. **Set your protection preferences.** Enable optional filtering and download EasyList / EasyPrivacy for broader coverage.
 4. **Choose what stays live.** Keep messaging accounts active and let eligible unused services sleep.
 
-**Requirements:** Windows x64 with Microsoft Edge WebView2. If WebView2 is missing, setup uses Microsoft's download bootstrapper and needs internet access. The v1.1.0 installer is unsigned, so Windows may show an unknown-publisher or SmartScreen notice. Release checksums are supplied alongside the download.
+**Requirements:** Windows x64 with Microsoft Edge WebView2. If WebView2 is missing, setup uses Microsoft's download bootstrapper and needs internet access. The v1.1.1 installer is unsigned, so Windows may show an unknown-publisher or SmartScreen notice. Release checksums are supplied alongside the download.
 
 Sleeping services may not deliver real-time notifications. Keep-live defaults and conservative media/form guards help avoid interruption, but provider-specific sign-in, calls, screen sharing, and notifications still need individual compatibility checks.
 
