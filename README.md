@@ -144,7 +144,7 @@ The browser preview uses separate local data and does not emulate native service
 
 ## Status and roadmap
 
-**v1.1.0** includes the service-management workspace, compact light/dark surfaces, account-isolation checks, native filtering, and optional Music and Canvas companions. The release review records **38 core tests and 16 native smoke checks**, alongside UI and popup checks. [Release review →](docs/UI_REVIEW_1.1.0.md)
+**v1.1.1** includes the service-management workspace, compact light/dark surfaces, account-isolation checks, native filtering, and optional Music and Canvas companions. It also starts YuTuTui reliably from the Music panel and provides clear retry/loading states. The release review records **38 core tests and 16 native smoke checks**, alongside UI and popup checks. [Release notes →](docs/RELEASE_NOTES_1.1.1.md)
 
 Next areas include provider-specific authentication and call compatibility, native notifications and unread adapters, broader filtering coverage, and migration. The catalog contains metadata from **441 pinned recipe entries**; this is discovery coverage, not a claim of 441 fully supported integrations. See [implementation scope](docs/IMPLEMENTATION.md) and [parity tracking](docs/PARITY.md).
 
