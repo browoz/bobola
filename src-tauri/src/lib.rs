@@ -95,6 +95,36 @@ async fn run_music(app: &tauri::AppHandle, arguments: &[String]) -> Result<Strin
     Ok(String::from_utf8_lossy(&output.stdout).trim().to_string())
 }
 
+async fn ensure_music_daemon(app: &tauri::AppHandle) -> Result<String> {
+    let status_args = vec!["-r".to_string(), "status".into(), "--json".into()];
+    if let Ok(output) = run_music(app, &status_args).await {
+        return Ok(output);
+    }
+
+    let binary = music_binary(app);
+    let mut process = tokio::process::Command::new(&binary);
+    process
+        .args(["daemon", "start"])
+        .stdin(Stdio::null())
+        .stdout(Stdio::null())
+        .stderr(Stdio::null());
+    #[cfg(windows)]
+    process.creation_flags(0x08000000);
+    process
+        .spawn()
+        .map_err(|error| format!("YuTuTui could not start: {error}"))?;
+
+    let mut last_error = "YuTuTui did not become ready.".to_string();
+    for _ in 0..20 {
+        tokio::time::sleep(std::time::Duration::from_millis(150)).await;
+        match run_music(app, &status_args).await {
+            Ok(output) => return Ok(output),
+            Err(error) => last_error = error,
+        }
+    }
+    Err(last_error)
+}
+
 fn parse_music_status(text: &str) -> MusicStatus {
     let response: serde_json::Value = serde_json::from_str(text).unwrap_or_default();
     let status = response.get("status").unwrap_or(&response);
@@ -136,12 +166,7 @@ async fn music_status(window: tauri::WebviewWindow) -> Result<MusicStatus> {
             error: None,
         });
     }
-    match run_music(
-        window.app_handle(),
-        &["-r".into(), "status".into(), "--json".into()],
-    )
-    .await
-    {
+    match ensure_music_daemon(window.app_handle()).await {
         Ok(output) => Ok(parse_music_status(&output)),
         Err(error) => Ok(MusicStatus {
             available: true,
@@ -180,9 +205,7 @@ async fn music_command(
         _ => return Err("Unknown music action.".into()),
     }
     arguments.push("--json".into());
-    if action == "play" {
-        let _ = run_music(window.app_handle(), &["daemon".into(), "start".into()]).await;
-    }
+    let _ = ensure_music_daemon(window.app_handle()).await?;
     let output = run_music(window.app_handle(), &arguments).await?;
     Ok(parse_music_status(&output))
 }
